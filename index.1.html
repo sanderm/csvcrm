@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<title>tagup demo</title>
+
+<body>
+	<div class="tagup" tagupimagehref="http://startupnorway.com/assets/startupmap.rev25-normal.png"></div>
+<link rel="stylesheet" type="text/css" href='tagup.css'/>
+<link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+<script src="jquery.js"></script>
+<script src="jquery-csv.js"></script>
+<script type="text/javascript" src=tagup.js></script>
+<script> 
+window.onload = function ()
+{
+	//var FirebaseTokenGenerator = require("firebase-token-generator.js");
+    //var tokenGenerator = new FirebaseTokenGenerator(FIREBASE_SECRET);
+    //var tokenid= 
+    //var token = tokenGenerator.createToken({ "uid": "1", "hasEmergencyTowel": true });
+	
+	
+	Tagup.initialize("https://tagupexits2.firebaseio.com/", "startupmap.rev25-normal.png", document.getElementsByTagName("body")[0]);
+}
+</script>
+<form action="https://swapp-sanderm1.c9users.io/upload" method="post" enctype="multipart/form-data">
+  <input id="fileupload" type="file" name="file">
+  <input type="submit" value="Upload">
+</form>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+[
+  {
+    "company":"Business model user group",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"Introduction to Business Model Canvas and help with refining your business model",
+    "url":"http://bmug.no/"
+  },
+  {
+    "company":"Lean Startup Norway",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"Official Lean Startup/Customer Development meetup",
+    "url":"http://www.meetup.com/LeanStartupNorway/"
+  },
+  {
+    "company":"meetup.com",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"Portal for meetup groups",
+    "url":"http://startupnorway.com/oslo-startup-ecosystem/meetup.com"
+  },
+  {
+    "company":"Open Coffee",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"Create your own agenda meeting, for entrepreneurs and other startup-curious individuals",
+    "url":"http://www.meetup.com/Startup-Oslo/"
+  },
+  {
+    "company":"Startu Digest",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"Weekly startup digest of events in most major cities around the world. Choose your city and get info about local events",
+    "url":"http://startupdigest.com/oslo"
+  },
+  {
+    "company":"Mentortjenesten for grundere",
+    "tag":"idea",
+    "subtag":"Advice",
+    "description":"30 to 100 hours mentoring by your industry expert",
+    "url":"http://www.innovasjonnorge.no/no/grunder/tjenester-for-grundere/din-personlige-mentor/"
+  },
+  {
+    "company":"Emax Norge",
+    "tag":"idea",
+    "subtag":"challenge",
+    "description":"Arena for youth that are interested in entrepreneurship",
+    "url":"https://www.facebook.com/EmaxNorge"
+  },
+  {
+    "company":"Global Service Jam",
+    "tag":"idea",
+    "subtag":"challenge",
+    "description":"48 hours of creating, prototyping and pitching. Target group: designers",
+    "url":"http://jamoslo.com/"
+  },
+  {
+    "company":"Startup Weekend",
+    "tag":"idea",
+    "subtag":"challenge",
+    "description":"Brings entrepreneurs together to launch startups during a weekend. Events in all major cities around the world",
+    "url":"http://oslo.startupweekend.org/"
+  },
+  {
+    "company":"Social Innovation Camp",
+    "tag":"idea",
+    "subtag":"challenge",
+    "description":"12 weeks of acceleration for social innovation",
+    "url":"http://sicamp.no/"
+  },
+  {
+    "company":"Venture Cup",
+    "tag":"idea",
+    "subtag":"challenge",
+    "description":"Business plan competition by Start Norge in all major cities in Norway",
+    "url":"http://venturecup.no/"
+  },
+  {
+    "company":"Creative Mornings",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"Monthly breakfast lecture series for creative types",
+    "url":"https://www.facebook.com/CreativeMorningsOslo"
+  },
+  {
+    "company":"Connect Østlandet",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"Connects your early stage startup with experienced mentors/ companies",
+    "url":"http://www.connectnorge.org/"
+  },
+  {
+    "company":"First Tuesday",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"Meeting arena for startups, companies and investors in most major cities around the world",
+    "url":"http://www.firsttuesday.no/"
+  },
+  {
+    "company":"Grunderskolen",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"MSc level Entrepeneurship education. Lectures at elite university, combined with internship in a tech startup abroad",
+    "url":"http://grunderskolen.no/"
+  },
+  {
+    "company":"Start Norge",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"Student organisation for entrepreneurs",
+    "url":"http://startnorge.no/"
+  },
+  {
+    "company":"TEDx Oslo",
+    "tag":"idea",
+    "subtag":"network",
+    "description":"Worldwide conference producing videos of ideas worth spreading",
+    "url":"http://tedxoslo.com/"
+  },
+  {
+    "company":"Innovasjon Norge – ",
+    "tag":"idea",
+    "subtag":"Funding",
+    "description":"The Norwegian goverment’s fund",
+    "url":"http://www.innovasjonnorge.no/"
+  },
+  {
+    "company":"Fønd – ",
+    "tag":"idea",
+    "subtag":"Funding",
+    "description":"Norwegian crowdfunding platform",
+    "url":"http://foend.no/"
+  },
+  {
+    "company":"Grundergarasjen – ",
+    "tag":"idea",
+    "subtag":"Idea Offices",
+    "description":"Simula research’s co-working space at IT-fornebu",
+    "url":"http://grundergarasjen.no/"
+  },
+  {
+    "company":"Mesh Cafe – ",
+    "tag":"idea",
+    "subtag":"Idea Offices",
+    "description":"Cafe section of the co-working space Mesh on 1st floor",
+    "url":"http://meshnorway.com/"
+  },
+  {
+    "company":"AppAcademy",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Learn how to make your own mobile app",
+    "url":"http://appacademy.no/"
+  },
+  {
+    "company":"BedriftsVeiledningstelefonen",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Free business help from the government, via phone",
+    "url":"https://www.altinn.no/no/Starte-og-drive-bedrift/Ring-oss/"
+  },
+  {
+    "company":"Build2Grow",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Talks with tips on how to grow your business",
+    "url":"http://www.build2grow.no/"
+  },
+  {
+    "company":"Servicekontoret for næringslivet",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Events with entrepeneur tips from Oslo Kommune",
+    "url":"http://www.naringsetaten.oslo.kommune.no/"
+  },
+  {
+    "company":"Patentstyret",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Get advice on patenting your idea",
+    "url":"http://www.patentstyret.no/"
+  },
+  {
+    "company":"TINC -Tech INCubator",
+    "tag":"startup",
+    "subtag":"Advice",
+    "description":"Four weeks business development programme in Silicon Valley",
+    "url":"http://www.innovasjonnorge.no/Ut-i-verden/Tech-INCubator-TINC/"
+  },
+  {
+    "company":"PangStart",
+    "tag":"startup",
+    "subtag":"Challenge",
+    "description":"1 week business plan competition by Oslo kommune",
+    "url":"http://www.pangstart.oslo.kommune.no/"
+  },
+  {
+    "company":"Startup Summer",
+    "tag":"startup",
+    "subtag":"Challenge",
+    "description":"2 weeks pre-accelerator program for early stage startups in Oslo",
+    "url":"http://startupsummer.no/"
+  },
+  {
+    "company":"Global Entrepeneurship Week",
+    "tag":"startup",
+    "subtag":"Network",
+    "description":"Lots of events running worlwide for one week",
+    "url":"http://no.unleashingideas.org/"
+  },
+  {
+    "company":"IKT Norge",
+    "tag":"startup",
+    "subtag":"Network",
+    "description":"Membership organisation with a broad number of ICT companies",
+    "url":"http://ikt-norge.no/"
+  },
+  {
+    "company":"Mesh Afterwork",
+    "tag":"startup",
+    "subtag":"Network",
+    "description":"Mingle with other entrepreneurs at Seeds (old Fugazi backyard)",
+    "url":"https://www.facebook.com/pages/Mesh-Friday-After-Work/256506141160635"
+  },
+  {
+    "company":"Oslo Innovation Week",
+    "tag":"startup",
+    "subtag":"Network",
+    "description":"Entrepreneur events all around Oslo for one week",
+    "url":"http://startupnorway.com/oslo-startup-ecosystem/oiw.no"
+  },
+  {
+    "company":"Oslo MedTech",
+    "tag":"startup",
+    "subtag":"Network",
+    "description":"Facilitates innovation within the medical industry",
+    "url":"http://www.oslomedtech.no/"
+  },
+  {
+    "company":"Alliance Spring Venture",
+    "tag":"startup",
+    "subtag":"Funding",
+    "description":"Early stage startup funding in the nordics",
+    "url":"http://www.allianceventure.com/"
+  },
+  {
+    "company":"Beta Factory",
+    "tag":"startup",
+    "subtag":"Funding",
+    "description":"3 months accelerator programme in Oslo",
+    "url":"http://betafactory.com/"
+  },
+  {
+    "company":"Funders Fund",
+    "tag":"startup",
+    "subtag":"Funding",
+    "description":"StartupLabs early stage investment fund",
+    "url":"http://www.oslotech.no/2013/founders-fund/"
+  },
+  {
+    "company":"Norwegian Investment Forum",
+    "tag":"startup",
+    "subtag":"Funding",
+    "description":"Largest investment forum in Oslo",
+    "url":"http://norwegianinvestmentforum.no/"
+  },
+  {
+    "company":"Skattefunn",
+    "tag":"startup",
+    "subtag":"Funding",
+    "description":"Apply for tax refund for entrepreneurs",
+    "url":"http://startupnorway.com/oslo-startup-ecosystem/www.skattefunn.no/%E2%80%8E"
+  },
+  {
+    "company":"Bitraf",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Open space with hacking, 3D printing and game development",
+    "url":"https://bitraf.no/"
+  },
+  {
+    "company":"Evolve",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"All-around office space with several diffrent locations in Oslo",
+    "url":"http://evolve.no/"
+  },
+  {
+    "company":"Grunderneshus",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Traditional and more experienced entrepreneur’s space",
+    "url":"http://www.grunderneshus.no/"
+  },
+  {
+    "company":"Mesh co-working",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Space targeted at innovation entrepreneurs",
+    "url":"http://meshnorway.com/"
+  },
+  {
+    "company":"657 Oslo",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Space with creative focus",
+    "url":"http://657.no/"
+  },
+  {
+    "company":"StartupLab",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Forskningsparken’s IT incubator space with mentors and investors",
+    "url":"http://startuplab.no/"
+  },
+  {
+    "company":"Y3o",
+    "tag":"startup",
+    "subtag":"Offices",
+    "description":"Young environment of forward-thinking startups",
+    "url":"http://nordaaker.no/"
+  },
+  {
+    "company":"GET – Global entrepreneurship Training",
+    "tag":"growth",
+    "subtag":"Advice",
+    "description":"5 days entrepreneurship training in Boston",
+    "url":"http://www.innovasjonnorge.no/Ut-i-verden/GET/"
+  },
+  {
+    "company":"TEA – TechCity UK Executive Accelerator",
+    "tag":"growth",
+    "subtag":"Advice",
+    "description":"UK accelerator for Norwegian companies by Innovasjon Norge",
+    "url":"http://www.innovasjonnorge.no/Nyheter/London-calling---its-TEA-time/"
+  },
+  {
+    "company":"Digital Winners",
+    "tag":"growth",
+    "subtag":"Challenge",
+    "description":"Nordic conference for media, technology and communications",
+    "url":"http://digitalwinners.no/"
+  },
+  {
+    "company":"DNB Innovasjonspris",
+    "tag":"growth",
+    "subtag":"Challenge",
+    "description":"DNB handing out money to one innovative company",
+    "url":"https://www.dnb.no/innovasjon"
+  },
+  {
+    "company":"Nordic Startup Awards",
+    "tag":"growth",
+    "subtag":"Challenge",
+    "description":"Showcase players in the Nordic startup scene",
+    "url":"https://www.facebook.com/nordicstartupawards"
+  },
+  {
+    "company":"Signalkonferansen",
+    "tag":"growth",
+    "subtag":"Challenge",
+    "description":"Debate about entrepreneurship in Norway",
+    "url":"http://www.innovasjonnorge.no/Arrangementer/Signalkonferansen-2013/"
+  },
+  {
+    "company":"Silicon Vikings",
+    "tag":"growth",
+    "subtag":"Network",
+    "description":"Get to know people from Norway who have network in Silicon Valley",
+    "url":"http://siliconvikings.com/"
+  },
+  {
+    "company":"Creandum",
+    "tag":"growth",
+    "subtag":"Funding",
+    "description":"Invests in all stages of a company",
+    "url":"http://www.creandum.com/"
+  },
+  {
+    "company":"Investinor",
+    "tag":"growth",
+    "subtag":"Funding",
+    "description":"Invests in all stages of a company",
+    "url":"http://investinor.no/"
+  },
+  {
+    "company":"Northzone Invest",
+    "tag":"growth",
+    "subtag":"Funding",
+    "description":"Government and private investment company",
+    "url":"http://www.northzone.com/"
+  },
+  {
+    "company":"Schibsted Vekst",
+    "tag":"growth",
+    "subtag":"Funding",
+    "description":"Invests in early and late stage media companies",
+    "url":"http://schibstedvekst.no/"
+  },
+  {
+    "company":"Oslotech",
+    "tag":"growth",
+    "subtag":"Offices",
+    "description":"Co-working space StartupLab at forskningsparken",
+    "url":"http://startupnorway.com/oslo-startup-ecosystem/www.oslotech.no"
+  }
+]
