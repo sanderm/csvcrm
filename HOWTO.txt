@@ -1,0 +1,6 @@
+1. copy replace firebaseid in index.html
+2. Go to in Firebase Console > Database >Rules and change: change to true both places
+3. change port in mjgtest.py if you have more than 1 databases running
+4. start mjgtest.py for each database
+
+
