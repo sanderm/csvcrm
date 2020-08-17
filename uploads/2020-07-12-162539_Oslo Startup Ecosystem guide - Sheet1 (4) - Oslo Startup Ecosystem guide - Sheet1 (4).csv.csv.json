@@ -1,0 +1,466 @@
+[
+    {
+        "textname": "Business model user group",
+        "nummembers2018": "-",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "Introduction to Business Model Canvas and help with refining your business model",
+        "urlname": "http://bmug.no/"
+    },
+    {
+        "textname": "Lean Startup Norway",
+        "nummembers2018": "583",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "Official Lean Startup/Customer Development meetup",
+        "urlname": "http://www.meetup.com/LeanStartupNorway/"
+    },
+    {
+        "textname": "meetup.com",
+        "nummembers2018": "-",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "Portal for meetup groups",
+        "urlname": "http://startupnorway.com/oslo-startup-ecosystem/meetup.com"
+    },
+    {
+        "textname": "Open Coffee",
+        "nummembers2018": "1852",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "Create your own agenda meeting, for entrepreneurs and other startup-curious individuals",
+        "urlname": "http://www.meetup.com/Startup-Oslo/"
+    },
+    {
+        "textname": "Startu Digest",
+        "nummembers2018": "5000",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "Weekly startup digest of events in most major cities around the world. Choose your city and get info about local events",
+        "urlname": "http://startupdigest.com/oslo"
+    },
+    {
+        "textname": "Mentortjenesten for grundere",
+        "nummembers2018": "-",
+        "textidea": "idea",
+        "textadvice": "Advice",
+        "description": "30 to 100 hours mentoring by your industry expert",
+        "urlname": "http://www.innovasjonnorge.no/no/grunder/tjenester-for-grundere/din-personlige-mentor/"
+    },
+    {
+        "textname": "Emax Norge",
+        "nummembers2018": "1085",
+        "textidea": "idea",
+        "textadvice": "challenge",
+        "description": "Arena for youth that are interested in entrepreneurship",
+        "urlname": "https://www.facebook.com/EmaxNorge"
+    },
+    {
+        "textname": "Global Service Jam",
+        "nummembers2018": "-",
+        "textidea": "idea",
+        "textadvice": "challenge",
+        "description": "48 hours of creating, prototyping and pitching. Target group: designers",
+        "urlname": "http://jamoslo.com/"
+    },
+    {
+        "textname": "Startup Weekend",
+        "nummembers2018": "1063",
+        "textidea": "idea",
+        "textadvice": "challenge",
+        "description": "Brings entrepreneurs together to launch startups during a weekend. Events in all major cities around the world",
+        "urlname": "http://oslo.startupweekend.org/"
+    },
+    {
+        "textname": "Social Innovation Camp",
+        "nummembers2018": "100?",
+        "textidea": "idea",
+        "textadvice": "challenge",
+        "description": "12 weeks of acceleration for social innovation",
+        "urlname": "http://sicamp.no/"
+    },
+    {
+        "textname": "Venture Cup",
+        "nummembers2018": "-",
+        "textidea": "idea",
+        "textadvice": "challenge",
+        "description": "Business plan competition by Start Norge in all major cities in Norway",
+        "urlname": "http://venturecup.no/"
+    },
+    {
+        "textname": "Creative Mornings",
+        "nummembers2018": "4096",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "Monthly breakfast lecture series for creative types",
+        "urlname": "https://www.facebook.com/CreativeMorningsOslo"
+    },
+    {
+        "textname": "Connect \u00d8stlandet",
+        "nummembers2018": "4000",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "Connects your early stage startup with experienced mentors/ companies",
+        "urlname": "http://www.connectnorge.org/"
+    },
+    {
+        "textname": "First Tuesday",
+        "nummembers2018": "30000",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "Meeting arena for startups, companies and investors in most major cities around the world",
+        "urlname": "http://www.firsttuesday.no/"
+    },
+    {
+        "textname": "Grunderskolen",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "MSc level Entrepeneurship education. Lectures at elite university, combined with internship in a tech startup abroad",
+        "urlname": "http://grunderskolen.no/"
+    },
+    {
+        "textname": "Start Norge",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "Student organisation for entrepreneurs",
+        "urlname": "http://startnorge.no/"
+    },
+    {
+        "textname": "TEDx Oslo",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "network",
+        "description": "Worldwide conference producing videos of ideas worth spreading",
+        "urlname": "http://tedxoslo.com/"
+    },
+    {
+        "textname": "Innovasjon Norge \u2013",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "Funding",
+        "description": "The Norwegian goverment\u2019s fund",
+        "urlname": "http://www.innovasjonnorge.no/"
+    },
+    {
+        "textname": "F\u00f8nd \u2013",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "Funding",
+        "description": "Norwegian crowdfunding platform",
+        "urlname": "http://foend.no/"
+    },
+    {
+        "textname": "Grundergarasjen \u2013",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "Idea Offices",
+        "description": "Simula research\u2019s co-working space at IT-fornebu",
+        "urlname": "http://grundergarasjen.no/"
+    },
+    {
+        "textname": "Mesh Cafe \u2013",
+        "nummembers2018": "",
+        "textidea": "idea",
+        "textadvice": "Idea Offices",
+        "description": "Cafe section of the co-working space Mesh on 1st floor",
+        "urlname": "http://meshnorway.com/"
+    },
+    {
+        "textname": "AppAcademy",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Learn how to make your own mobile app",
+        "urlname": "http://appacademy.no/"
+    },
+    {
+        "textname": "BedriftsVeiledningstelefonen",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Free business help from the government, via phone",
+        "urlname": "https://www.altinn.no/no/Starte-og-drive-bedrift/Ring-oss/"
+    },
+    {
+        "textname": "Build2Grow",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Talks with tips on how to grow your business",
+        "urlname": "http://www.build2grow.no/"
+    },
+    {
+        "textname": "Servicekontoret for n\u00e6ringslivet",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Events with entrepeneur tips from Oslo Kommune",
+        "urlname": "http://www.naringsetaten.oslo.kommune.no/"
+    },
+    {
+        "textname": "Patentstyret",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Get advice on patenting your idea",
+        "urlname": "http://www.patentstyret.no/"
+    },
+    {
+        "textname": "TINC -Tech INCubator",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Advice",
+        "description": "Four weeks business development programme in Silicon Valley",
+        "urlname": "http://www.innovasjonnorge.no/Ut-i-verden/Tech-INCubator-TINC/"
+    },
+    {
+        "textname": "PangStart",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "challenge",
+        "description": "1 week business plan competition by Oslo kommune",
+        "urlname": "http://www.pangstart.oslo.kommune.no/"
+    },
+    {
+        "textname": "Startup Summer",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "challenge",
+        "description": "2 weeks pre-accelerator program for early stage startups in Oslo",
+        "urlname": "http://startupsummer.no/"
+    },
+    {
+        "textname": "Global Entrepeneurship Week",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Network",
+        "description": "Lots of events running worlwide for one week",
+        "urlname": "http://no.unleashingideas.org/"
+    },
+    {
+        "textname": "IKT Norge",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Network",
+        "description": "Membership organisation with a broad number of ICT companies",
+        "urlname": "http://ikt-norge.no/"
+    },
+    {
+        "textname": "Mesh Afterwork",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Network",
+        "description": "Mingle with other entrepreneurs at Seeds (old Fugazi backyard)",
+        "urlname": "https://www.facebook.com/pages/Mesh-Friday-After-Work/256506141160635"
+    },
+    {
+        "textname": "Oslo Innovation Week",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Network",
+        "description": "Entrepreneur events all around Oslo for one week",
+        "urlname": "http://startupnorway.com/oslo-startup-ecosystem/oiw.no"
+    },
+    {
+        "textname": "Oslo MedTech",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Network",
+        "description": "Facilitates innovation within the medical industry",
+        "urlname": "http://www.oslomedtech.no/"
+    },
+    {
+        "textname": "Alliance Spring Venture",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Funding",
+        "description": "Early stage startup funding in the nordics",
+        "urlname": "http://www.allianceventure.com/"
+    },
+    {
+        "textname": "Beta Factory",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Funding",
+        "description": "3 months accelerator programme in Oslo",
+        "urlname": "http://betafactory.com/"
+    },
+    {
+        "textname": "Funders Fund",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Funding",
+        "description": "StartupLabs early stage investment fund",
+        "urlname": "http://www.oslotech.no/2013/founders-fund/"
+    },
+    {
+        "textname": "Norwegian Investment Forum",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Funding",
+        "description": "Largest investment forum in Oslo",
+        "urlname": "http://norwegianinvestmentforum.no/"
+    },
+    {
+        "textname": "Skattefunn",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Funding",
+        "description": "Apply for tax refund for entrepreneurs",
+        "urlname": "http://startupnorway.com/oslo-startup-ecosystem/www.skattefunn.no/%E2%80%8E"
+    },
+    {
+        "textname": "Bitraf",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Open space with hacking, 3D printing and game development",
+        "urlname": "https://bitraf.no/"
+    },
+    {
+        "textname": "Evolve",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "All-around office space with several diffrent locations in Oslo",
+        "urlname": "http://evolve.no/"
+    },
+    {
+        "textname": "Grunderneshus",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Traditional and more experienced entrepreneur\u2019s space",
+        "urlname": "http://www.grunderneshus.no/"
+    },
+    {
+        "textname": "Mesh co-working",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Space targeted at innovation entrepreneurs",
+        "urlname": "http://meshnorway.com/"
+    },
+    {
+        "textname": "657 Oslo",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Space with creative focus",
+        "urlname": "http://657.no/"
+    },
+    {
+        "textname": "StartupLab",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Forskningsparken\u2019s IT incubator space with mentors and investors",
+        "urlname": "http://startuplab.no/"
+    },
+    {
+        "textname": "Y3o",
+        "nummembers2018": "",
+        "textidea": "startup",
+        "textadvice": "Offices",
+        "description": "Young environment of forward-thinking startups",
+        "urlname": "http://nordaaker.no/"
+    },
+    {
+        "textname": "GET \u2013 Global entrepreneurship Training",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Advice",
+        "description": "5 days entrepreneurship training in Boston",
+        "urlname": "http://www.innovasjonnorge.no/Ut-i-verden/GET/"
+    },
+    {
+        "textname": "TEA \u2013 TechCity UK Executive Accelerator",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Advice",
+        "description": "UK accelerator for Norwegian companies by Innovasjon Norge",
+        "urlname": "http://www.innovasjonnorge.no/Nyheter/London-calling---its-TEA-time/"
+    },
+    {
+        "textname": "Digital Winners",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Challenge",
+        "description": "Nordic conference for media, technology and communications",
+        "urlname": "http://digitalwinners.no/"
+    },
+    {
+        "textname": "DNB Innovasjonspris",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Challenge",
+        "description": "DNB handing out money to one innovative company",
+        "urlname": "https://www.dnb.no/innovasjon"
+    },
+    {
+        "textname": "Nordic Startup Awards",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Challenge",
+        "description": "Showcase players in the Nordic startup scene",
+        "urlname": "https://www.facebook.com/nordicstartupawards"
+    },
+    {
+        "textname": "Signalkonferansen",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Challenge",
+        "description": "Debate about entrepreneurship in Norway",
+        "urlname": "http://www.innovasjonnorge.no/Arrangementer/Signalkonferansen-2013/"
+    },
+    {
+        "textname": "Silicon Vikings",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Network",
+        "description": "Get to know people from Norway who have network in Silicon Valley",
+        "urlname": "http://siliconvikings.com/"
+    },
+    {
+        "textname": "Creandum",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Funding",
+        "description": "Invests in all stages of a company",
+        "urlname": "http://www.creandum.com/"
+    },
+    {
+        "textname": "Investinor",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Funding",
+        "description": "Invests in all stages of a company",
+        "urlname": "http://investinor.no/"
+    },
+    {
+        "textname": "Northzone Invest",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Funding",
+        "description": "Government and private investment company",
+        "urlname": "http://www.northzone.com/"
+    },
+    {
+        "textname": "Schibsted Vekst",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Funding",
+        "description": "Invests in early and late stage media companies",
+        "urlname": "http://schibstedvekst.no/"
+    },
+    {
+        "textname": "Oslotech",
+        "nummembers2018": "",
+        "textidea": "growth",
+        "textadvice": "Offices",
+        "description": "Co-working space StartupLab at forskningsparken",
+        "urlname": "http://startupnorway.com/oslo-startup-ecosystem/www.oslotech.no"
+    }
+]

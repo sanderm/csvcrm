@@ -1,4 +1,3 @@
-
 apt-get install pipenv
 pip3 install pyrebase
 pip3 install flask
