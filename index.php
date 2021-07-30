@@ -23,10 +23,14 @@ window.onload = function ()
 </head>
 <title>Agile -> tagfame.com -> Late phase startup</title>
 <body>
+<img src='tagframe-logo.jpg'><br>
 <h2>Lean -> <a href="http://tagstartups.com">http://tagstartups.com</a> -> Early phase startup -> Startups & Earlybirds;-)</h2>
 <h2>Agile -> <a href="http://tagfame.com">http://tagfame.com</a> -> Late phase startup -> Investable & Buyup & Dead companies</h2>
 <?php
 
+$tags = file_get_contents('./tags.txt', true);
+$letters = file_get_contents('./letters.txt', true);
+print "<h2>Total tags: $tags Total letters: $letters</h2>";
 function stringEndsWith($haystack,$needle,$case=true) {
     $expectedPosition = strlen($haystack) - strlen($needle);
     if ($case){
@@ -38,7 +42,6 @@ $sum= "";
 $csvfiles="";
 $exec_entry="";
 if ($handle = opendir('uploads/')) {
-    print "<img src='tagframe-logo.jpg'><br>";
     print "<form action='http://tagstartups.com:8080/change' method='post' enctype='multipart/form-data'>";
     print "<label for='changefiles'>Choose a file:</label><select name='changefile' id='changefile'>";
     while (false !== ($entry = readdir($handle))) {

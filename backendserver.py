@@ -18,6 +18,27 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 # These are the extension that we are accepting to be uploaded
 app.config['ALLOWED_EXTENSIONS'] = set(['csv'])
 
+def count():
+    count = 0
+    count2 = 0
+    char = ","
+    char2 = "\n"
+    for filename in os.listdir(app.config['UPLOAD_FOLDER']):
+        if filename.endswith(".csv"):
+            fileindir= os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file = open(fileindir,"r")
+            for i in file:
+                for c in i:
+                    count2= count2 +1
+                    if c == char or c == char2:
+                        count = count + 1
+    file1 = open('tags.txt', 'w')
+    file1.write(str(count) + "\n")
+    file1.close()
+    file1 = open('letters.txt', 'w')
+    file1.write(str(count2) + "\n")
+    file1.close()
+    #print("THE CHARACTER {} IS FOUND {} TIMES IN THE TEXT FILES".format(char,count))
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -87,6 +108,7 @@ def upload():
         #theurl= s.get(url)
         #theurl= requests.get(url, headers={'referer': my_referer})
         theurl= request.referrer;
+        count();
         return redirect(theurl, code=302)
 
         #return "Success!"
@@ -102,6 +124,7 @@ def change():
         
     upload_to_firebase(savefilename)
     theurl= request.referrer;
+    count();
     return redirect(theurl, code=302)
 
     #return "Success!"
