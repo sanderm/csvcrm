@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+
+import os
+import datetime
+import pyrebase
+import json
+import csv
+import requests
+from flask import Flask, render_template, request, redirect, url_for, send_from_directory
+from flask_cors import CORS
+#from werkzeug import secure_filename
+
+app = Flask(__name__)
+CORS(app)
+
+# This is the path to the upload directory
+app.config['UPLOAD_FOLDER'] = 'uploads/'
+# These are the extension that we are accepting to be uploaded
+app.config['ALLOWED_EXTENSIONS'] = set(['csv'])
+
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1] in app.config['ALLOWED_EXTENSIONS']
+
+
+# https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
+
+#def root_dir():  # pragma: no cover
+#    return os.path.abspath(os.path.dirname(__file__))
+
+
+#def get_file(filename):  # pragma: no cover
+#    try:
+#        src = os.path.join(root_dir(), filename)
+#       # Figure out how flask returns static files
+#        # Tried:
+#        # - render_template
+#        # - send_file
+#       # This should not be so non-obvious
+#       return open(src).read()
+#    except IOError as exc:
+#        return str(exc)
+
+@app.route('/')
+def hello():
+    return 'Hello World2'
+
+#@app.route('/', methods=['GET'])
+#def metrics():  # pragma: no cover
+#    content = get_file('jenkins_analytics.html')
+#    return Response(content, mimetype="text/html")
+
+#@app.route('/', defaults={'path': ''})
+#@app.route('/<path:path>')
+#def get_resource(path):  # pragma: no cover
+#    mimetypes = {
+ #       ".css": "text/css",
+#        ".html": "text/html",
+    
+    
+# Route that will process the file upload
+@app.route('/upload', methods=['POST'])
+def upload():
+    # Get the name of the uploaded file
+    file = request.files['file']
+    # Check if the file is one of the allowed types/extensions
+    if file and allowed_file(file.filename):
+        # Make the filename safe, remove unsupported chars
+        utc_time = datetime.datetime.utcnow()
+        filename = utc_time.strftime("%Y-%m-%d-%H%M%S") + "_" + file.filename + ".csv"
+        # Move the file form the temporal folder to
+        # the upload folder we setup
+        
+        #filediryear= os.path.join(app.config['UPLOAD_FOLDER'], utc_time.strftime("%Y-%m"))
+        #os.mkdir(filediryear)
+        savefilename= os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(savefilename)
+        # Redirect the user to the uploaded_file route, which
+        # will basicaly show on the browser the uploaded file
+        
+        upload_to_firebase(savefilename)
+        #convert_csv_to_json(savefilename)
+        #prettify_csv(savefilename)
+        #s = requests.Session()
+        #s.headers.update({'referer': my_referer})
+        #theurl= s.get(url)
+        #theurl= requests.get(url, headers={'referer': my_referer})
+        theurl= request.referrer;
+        return redirect(theurl, code=302)
+
+        #return "Success!"
+
+@app.route('/change', methods=['POST'])
+def change():
+    # Get the name of the uploaded file
+    file = request.form.get('changefile')
+    # Check if the file is one of the allowed types/extensions
+    savefilename= os.path.join(app.config['UPLOAD_FOLDER'], file)
+    # Redirect the user to the uploaded_file route, which
+    # will basicaly show on the browser the uploaded file
+        
+    upload_to_firebase(savefilename)
+    theurl= request.referrer;
+    return redirect(theurl, code=302)
+
+    #return "Success!"
+
+def prettify_csv(csv_file):
+    
+    #data = csv.reader(csvfile)
+    data = []
+    toappend= ""
+    for row in csv.DictReader(open(csv_file, 'r')):
+        #data.append(row)
+        toappend += str(row) + "\n"
+    
+    1. #{
+    #    'description': 'Bought by Bayer, First marketed alpha-particle emitting radiopharmaceutics for cancer treatment', 
+    #    'url': 'https://en.wikipedia.org/wiki/Algeta', 
+    #    'name': 'Algeta', 
+    #    'numexityear': '2014', 
+    #    'test': 
+    # 2.    {
+    #        'innerTest': 'Martin'    
+    #    }
+    #    'curexitM': '2900'
+    #},
+    #{
+    #    'description': 'Bought by Nordic Capital, 3d graphics and maps for the digital broadcast industry. ', 
+    #    'url': 'http://www.vizrt.com', 
+    #    'name': 'Vizrt', 
+    #    'numexityear': '2014', 
+    #    'curexitM': '350'
+    #}
+    
+    
+    # csv file in a single string
+    # 1. "{}" 2. " {
+    #
+    #              }"
+    #        
+    
+    #print(toappend)
+
+        
+    #fd = open(csv_file, 'wb')
+    #try:
+    #    writer = csv.writer(fd, dialect='excel', quotechar='"', quoting=csv.QUOTE_ALL)
+    #    writer.writerows(data)
+    
+    #finally:
+    #    fd.close()
+
+
+def upload_to_firebase(filename):
+    convert_csv_to_json(filename)
+    
+    config = {
+        "apiKey": "AIzaSyAKwq2mcUjSxrA-MkCti_s5gLbE4epqDkg",
+        "authDomain": "tagupexits2-710aa.firebaseapp.com",
+        "databaseURL": "https://tagupexits2-710aa.firebaseio.com",
+        "storageBucket": "tagupexits2-710aa.appspot.com"
+    }
+        
+    firebase = pyrebase.initialize_app(config)
+    db = firebase.database()
+    
+    # remove all existing elements:
+    db.remove()
+    
+    #add new data:
+    json_data = open(filename + '.json').read()
+    jsontext = json.loads(json_data)
+    db.set(jsontext)
+
+
+def convert_csv_to_json(filename):
+    csvfile = open(filename, 'r')
+    jsonfile = open(filename + '.json', 'w')
+    
+    output =[]
+    for row in csv.DictReader(csvfile):
+        output.append(row)
+
+    json.dump(output,jsonfile,indent=4,sort_keys=False)
+
+# running on https://swapp-sanderm1.c9users.io/ python3 py/mjgtest.py
+# html site: https://preview.c9users.io/sanderm1/swapp/tagup/index.html
+app.run(host=os.getenv('IP', '0.0.0.0'),port=int(os.getenv('PORT', 8080)))
