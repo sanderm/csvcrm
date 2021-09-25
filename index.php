@@ -13,7 +13,7 @@
 <script> 
 window.onload = function ()
 {
-	Tagup.initialize("https://tagupexits2-710aa.firebaseio.com/", "http://tagstartups.com/startupmap.rev25-normal.png", document.getElementsByTagName("body")[0]);
+	Tagup.initialize("https://tagupexits2-710aa.firebaseio.com/", "http://tagfame.com/startupmap.rev25-normal.png", document.getElementsByTagName("body")[0]);
 }
 </script>
 
@@ -21,11 +21,10 @@ window.onload = function ()
 <link rel="stylesheet" type="text/css" href='tagup.css'/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<title>Agile -> tagfame.com -> Late phase startup</title>
+<title>tagfame.com</title>
 <body>
 <img src='tagframe-logo.jpg'><br>
-<h2>Lean -> <a href="http://tagstartups.com">http://tagstartups.com</a> -> Early phase startup -> Startups & Earlybirds;-)</h2>
-<h2>Agile -> <a href="http://tagfame.com">http://tagfame.com</a> -> Late phase startup -> Investable & Buyup & Dead companies</h2>
+<h2><a href="http://tagfame.com">http://tagfame.com</a></h2>
 <?php
 
 $tags = file_get_contents('./tags.txt', true);
@@ -42,7 +41,7 @@ $sum= "";
 $csvfiles="";
 $exec_entry="";
 if ($handle = opendir('uploads/')) {
-    print "<form action='http://tagstartups.com:8080/change' method='post' enctype='multipart/form-data'>";
+    print "<form action='http://tagfame.com:8080/change' method='post' enctype='multipart/form-data'>";
     print "<label for='changefiles'>Choose a file:</label><select name='changefile' id='changefile'>";
     while (false !== ($entry = readdir($handle))) {
 
@@ -74,8 +73,8 @@ if ($handle = opendir('uploads/')) {
     print "</form>";
 }
 ?>
-<div class="tagup" tagupimagehref="http://tagstartups.com/startupmap.rev25-normal.png"></div>
-<form action="http://tagstartups.com:8080/upload" method="post" enctype="multipart/form-data">
+<div class="tagup" tagupimagehref="http://tagfame.com/startupmap.rev25-normal.png"></div>
+<form action="http://tagfame.com:8080/upload" method="post" enctype="multipart/form-data">
   <input id="fileupload" type="file" name="file">
   <input type="submit" value="Upload">
 </form>
@@ -92,15 +91,15 @@ one beer excel refactoring: 1. embed code on yourwebsite.com 2.send us mail with
   <script>
   window.onload = function ()
   {
-	  Tagup.initialize("https://tagupexits2-710aa.firebaseio.com/", "https://tagstartups.com/startupmap.rev25-normal.png", document.getElementsByTagName("body")[0]);
+	  Tagup.initialize("https://tagupexits2-710aa.firebaseio.com/", "https://tagfame.com/startupmap.rev25-normal.png", document.getElementsByTagName("body")[0]);
   }
   </script>
-  <link rel="stylesheet" type="text/css" href='https://tagstartups.com/tagup.css'/>
+  <link rel="stylesheet" type="text/css" href='https://tagfame.com/tagup.css'/>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <title>Tagup demo</title>
   <body>
-  <form action="http://tagstartups.com:8080/upload" method="post" enctype="multipart/form-data">
+  <form action="http://tagfame.com:8080/upload" method="post" enctype="multipart/form-data">
   <input id="fileupload" type="file" name="file">
   <input type="submit" value="Upload">
   </form>
