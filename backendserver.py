@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# egrep "test" uploads/*csv.csv$* | awk -F':' '{print $2}' | sort | uniq -c | sort -g
 import os
 import datetime
 import pyrebase
@@ -81,6 +82,20 @@ def hello():
     
     
 # Route that will process the file upload
+@app.route('/search', methods=['GET'])
+def search():
+    # Get the name of the uploaded file
+    match = request.form.get('match')
+    f= "uploads/search.csv"
+    for line in open(f, 'r'):
+        if re.search(search_term, line):
+            print line,
+            if line == None:
+                print 'no matches found'
+
+    cmd= exec"egrep 'test' uploads/*csv.csv$* | awk -F':' '{print $2}' | sort | uniq -c | sort -g"
+
+
 @app.route('/upload', methods=['POST'])
 def upload():
     # Get the name of the uploaded file
