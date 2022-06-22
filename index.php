@@ -42,7 +42,8 @@ $csvfiles="";
 $exec_entry="";
 if ($handle = opendir('uploads/')) {
     print "<form action='http://tagfame.com:8080/change' method='post' enctype='multipart/form-data'>";
-    print "<label for='changefiles'>Choose a file:</label><select name='changefile' id='changefile'>";
+    print "<label for='changefiles'>Choose a file:</label><br>";
+    //print "<select name='changefile' id='changefile'>";
     while (false !== ($entry = readdir($handle))) {
 
         if ($entry != "." && $entry != "..") {
@@ -57,11 +58,17 @@ if ($handle = opendir('uploads/')) {
                 $exec_entry = "$entry";
             }
                 //$exec_entry .= "$changefile";
-            print "<option value='" . $entry . "'";
+            //print "<option value='" . $entry . "'";
+            //if ("$entry" == "$changefile") {
+            //    print " selected ";
+            //}            
+            //print ">$entry</option>";
+
+            print "<input type='radio' name='changefile'";
             if ("$entry" == "$changefile") {
-                print " selected ";
+                print " checked ";
             }            
-            print ">$entry</option>";
+            print "value='$entry'>$entry<br>";
             }
         }
     }
@@ -106,6 +113,10 @@ one beer excel refactoring: 1. embed code on yourwebsite.com 2.send us mail with
   </body>
   </html>
 </textarea>
+<form action="http://tagfame.com:8080/upload" method="post" enctype="multipart/form-data">
+  <input id="fileupload" type="file" name="file">
+  <input type="submit" value="Upload">
+</form>
 </body>
 
 </html>

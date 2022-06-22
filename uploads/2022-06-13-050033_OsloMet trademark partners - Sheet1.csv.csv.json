@@ -1,0 +1,110 @@
+[
+    {
+        "textname": "Patentstyret",
+        "urlname": "http://patentstyret.no",
+        "textdescription": "Trademarks to take and give a little of everything touching someone",
+        "textneed": "webchat,reference checks"
+    },
+    {
+        "textname": "Google",
+        "urlname": "http://google.com",
+        "textdescription": "Idea of how to organize the web better",
+        "textneed": "GCP with Palalto security and freedom of speach"
+    },
+    {
+        "textname": "PalaltoNetworks",
+        "urlname": "http://palaltonetworks.com",
+        "textdescription": "Web loadbalancer with security of 0day exploits for enterprises",
+        "textneed": "included loadbalancer without bigip and raspberryos"
+    },
+    {
+        "textname": "Visma",
+        "urlname": "http://visma.com",
+        "textdescription": "Programs for enterprises consolidated",
+        "textneed": "tagfame.com missing debreafing due diligence"
+    },
+    {
+        "textname": "StartupNorway",
+        "urlname": "http://startupnorway.com",
+        "textdescription": "Gives investors deals and startups money online community and local events",
+        "textneed": "wehchat, go global, investor cut"
+    },
+    {
+        "textname": "OsloMet",
+        "urlname": "http://oslomet.no",
+        "textdescription": "Educates online on youtube and fits degrees with the world leading trademark in theyre name",
+        "textneed": "Oposite education full strategy"
+    },
+    {
+        "textname": "Amazon",
+        "urlname": "http://amazon.co.uk",
+        "textdescription": "amazon fullfillment webstore sending popular upfront, imdb, aws servers, cloud9 ",
+        "textneed": "wehchat"
+    },
+    {
+        "textname": "University of Oslo",
+        "urlname": "http://ifi.uio.no",
+        "textdescription": "Informatics to create a full body",
+        "textneed": "Online intel"
+    },
+    {
+        "textname": "VestreViken",
+        "urlname": "http://vestreviken.no",
+        "textdescription": "Healthservices to push people down untill they can prove it every time ",
+        "textneed": "Moderator of moderators with points"
+    },
+    {
+        "textname": "Viken",
+        "urlname": "http://viken.no",
+        "textdescription": "Education services on upper secondary",
+        "textneed": "webchat"
+    },
+    {
+        "textname": "Motorola",
+        "urlname": "http://motorola.com",
+        "textdescription": "Phones and ear sight mounted augemented reality",
+        "textneed": "PalaltoNetworks security"
+    },
+    {
+        "textname": "Microsoft",
+        "urlname": "http://microsoft.com",
+        "textdescription": "Operating system with leak network to avoid getting exploited, pays artists becouse of filesharing",
+        "textneed": "webchat for enterprise licence reviews"
+    },
+    {
+        "textname": "Active24",
+        "urlname": "http://active24.com",
+        "textdescription": "Webhosting with superb customer service and palalto security",
+        "textneed": "auto migrate old websites with simula compiler "
+    },
+    {
+        "textname": "Facebook",
+        "urlname": "http://facebook.com",
+        "textdescription": "Timeline to blog about your life",
+        "textneed": "red marks when someone edits a text for security"
+    },
+    {
+        "textname": "Finn Schibsted",
+        "urlname": "http://finn.no",
+        "textdescription": "Marketplace of gods and services and property/cars",
+        "textneed": "Free dating"
+    },
+    {
+        "textname": "Coop",
+        "urlname": "http://coop.no",
+        "textdescription": "Store with an avl logistics system to avoid sending too much",
+        "textneed": "Spread the logistics to other stores too"
+    },
+    {
+        "textname": "Regjeringen",
+        "urlname": "http://regjeringen.no",
+        "textdescription": "The Norwegian goverment",
+        "textneed": "Follow recepie on twitter.com/sanderm"
+    },
+    {
+        "textname": "Raima",
+        "urlname": "http://raima.com",
+        "textdescription": "Silicon chip database",
+        "textneed": "Redundant database full two way replication"
+    }
+]
