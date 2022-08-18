@@ -25,11 +25,12 @@ window.onload = function ()
 <body>
 <img src='tagframe-logo.jpg'><br>
 <h2><a href="http://tagfame.com">http://tagfame.com</a></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oJDGcxAf9D8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <?php
 
 $tags = file_get_contents('./tags.txt', true);
 $letters = file_get_contents('./letters.txt', true);
-print "<h2>Total tags: $tags Total letters: $letters</h2>";
+print "<h2>Total tags: $tags Total letters: $letters</h2> mail me excel/google spreadsheets at <a href='mailto:post@sanderm.no'>post@sanderm.no</a>";
 function stringEndsWith($haystack,$needle,$case=true) {
     $expectedPosition = strlen($haystack) - strlen($needle);
     if ($case){
@@ -63,11 +64,11 @@ if ($handle = opendir('uploads/')) {
             //    print " selected ";
             //}            
             //print ">$entry</option>";
-
+            //print "<a href='?file=$entry'>$entry</a>";
             print "<input type='radio' name='changefile'";
             if ("$entry" == "$changefile") {
                 print " checked ";
-            }            
+            }
             print "value='$entry'>$entry<br>";
             }
         }
@@ -79,6 +80,13 @@ if ($handle = opendir('uploads/')) {
     print "<input type='image' name='submit' src='skip-bt.jpg' border='0' alt='Submit' style='width: 50px;' />";
     print "</form>";
 }
+            //$file="";
+            //if (isset($_REQUEST['file'])) {
+            //  $file= $_REQUEST['file'];
+            //}
+            //if ($entry = $file) {
+            //}
+
 ?>
 <div class="tagup" tagupimagehref="http://tagfame.com/startupmap.rev25-normal.png"></div>
 <form action="http://tagfame.com:8080/upload" method="post" enctype="multipart/form-data">

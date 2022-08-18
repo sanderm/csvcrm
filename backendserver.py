@@ -7,6 +7,7 @@ import pyrebase
 import json
 import csv
 import requests
+import subprocess
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 from flask_cors import CORS
 #from werkzeug import secure_filename
@@ -79,8 +80,30 @@ def hello():
 #    mimetypes = {
  #       ".css": "text/css",
 #        ".html": "text/html",
-    
-    
+
+# return live search form data
+@app.route('/searchform', methods=['GET'])
+def searchform():
+
+  lines_seen = set() # holds lines already seen
+  path = r'uploads/'
+  for file in os.listdir(path): #added this line
+    current_file = os.path.join(path, file)
+    for line in open(current_file, "r"):
+        if line not in lines_seen: # not a duplicate
+            print(line);
+            lines_seen.add(line)
+  subprocess.call(['grep -i startup uploads/*.json | awk -F":        " \'{print $2 " " $1}\' | sort | uniq | wc -l'])
+  filename = 'some.csv'
+  with open(filename, 'rb') as f:
+       reader = csv.reader(f)
+       try:
+           for row in reader:
+               print(row);
+       except csv.Error as e:
+           sys.exit('file %s, line %d: %s' % (filename, reader.line_num, e))
+
+
 # Route that will process the file upload
 @app.route('/search', methods=['GET'])
 def search():
@@ -89,12 +112,12 @@ def search():
     f= "uploads/search.csv"
     for line in open(f, 'r'):
         if re.search(search_term, line):
-            print line,
+            print (line);
             if line == None:
-                print 'no matches found'
+                print('no matches found')
 
-    cmd= exec"egrep 'test' uploads/*csv.csv$* | awk -F':' '{print $2}' | sort | uniq -c | sort -g"
-
+    cmd= "egrep 'test' uploads/*csv.csv$* | awk -F':' '{print $2}' | sort | uniq -c | sort -g"
+    exec(cmd);
 
 @app.route('/upload', methods=['POST'])
 def upload():
@@ -134,9 +157,10 @@ def change():
     file = request.form.get('changefile')
     # Check if the file is one of the allowed types/extensions
     savefilename= os.path.join(app.config['UPLOAD_FOLDER'], file)
+    print ( "$file");
     # Redirect the user to the uploaded_file route, which
     # will basicaly show on the browser the uploaded file
-        
+    #print (os.environ.get( ” USERNAME” ));
     upload_to_firebase(savefilename)
     theurl= request.referrer;
     count();
@@ -211,7 +235,6 @@ def upload_to_firebase(filename):
     json_data = open(filename + '.json').read()
     jsontext = json.loads(json_data)
     db.set(jsontext)
-
 
 def convert_csv_to_json(filename):
     csvfile = open(filename, 'r')
