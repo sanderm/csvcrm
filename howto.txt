@@ -13,6 +13,9 @@ sudo -u www-data -s .venv/bin/pip install CodeIntel
 # on start of server:
 sudo -u www-data -s .venv/bin/python backendserver.py&
 /var/www/start.sh
+# with your user
+chown sander.sander -R /var/www/tagfame/.*
+chown sander.www-data -R /var/www/tagfame/uploads/
 
 1. copy replace firebaseid in index.html
 2. Go to in Firebase Console > Database >Rules and change: change to true both places
@@ -20,6 +23,7 @@ sudo -u www-data -s .venv/bin/python backendserver.py&
 4. start mjgtest.py for each database
 5. upload JSON to realtime database under the 3 dots in the right.
 
+# to avoid 
 
 # when theres full space, first it will be impossible to change csv, then the downain will go down.
 
@@ -32,3 +36,4 @@ sudo -u www-data -s .venv/bin/python backendserver.py&
 7. apt-get upgrade --fix-missing
 8. apt-get dist-upgrade
 9. apt autoremove
+10. apt-get reinstall python3-pip
