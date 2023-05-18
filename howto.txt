@@ -19,3 +19,13 @@ sudo -u www-data -s .venv/bin/python backendserver.py&
 3. change port in mjgtest.py if you have more than 1 databases running
 4. start mjgtest.py for each database
 5. upload JSON to realtime database under the 3 dots in the right.
+
+
+# when theres full space, first it will be impossible to change csv, then the downain will go down.
+
+1. Add space to your virtual machine or san management
+2. do resize2fs /dev/root
+3. apt-get clean && apt-get autoremove
+4. shutdown -r now
+
+
