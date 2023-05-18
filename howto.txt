@@ -27,5 +27,8 @@ sudo -u www-data -s .venv/bin/python backendserver.py&
 2. do resize2fs /dev/root
 3. apt-get clean && apt-get autoremove
 4. shutdown -r now
-
-
+5. apt-get --fix-broken install
+6. apt-get update
+7. apt-get upgrade --fix-missing
+8. apt-get dist-upgrade
+9. apt autoremove
