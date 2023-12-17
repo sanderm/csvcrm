@@ -15,6 +15,8 @@ sudo -u www-data -s .venv/bin/python backendserver.py&
 /var/www/start.sh
 # with your user
 chown sander.sander -R /var/www/tagfame/.*
+chown sander.www-data -R /var/www/tagfame/letters.txt
+chown sander.www-data -R /var/www/tagfame/tags.txt
 chown sander.www-data -R /var/www/tagfame/uploads/
 
 1. copy replace firebaseid in index.html
