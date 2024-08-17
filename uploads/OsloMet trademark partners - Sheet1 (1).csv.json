@@ -106,5 +106,11 @@
         "urlname": "http://raima.com",
         "textdescription": "Silicon chip database",
         "textneed": "Redundant database full two way replication"
+    },
+    {
+        "textname": "Techstars startupWeekend",
+        "urlname": "http://startupweekend.org",
+        "textdescription": "Around the globe local startup incubator",
+        "textneed": "Cut wars and trade resources instead locally"
     }
 ]
