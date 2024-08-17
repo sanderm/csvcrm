@@ -1,0 +1,1179 @@
+[
+    {
+        "textshort": "AD",
+        " textcountry": " ANDORRA",
+        " textcountrycode": " 376"
+    },
+    {
+        "textshort": "AE",
+        " textcountry": " UNITED ARAB EMIRATES",
+        " textcountrycode": " 971"
+    },
+    {
+        "textshort": "AF",
+        " textcountry": " AFGHANISTAN",
+        " textcountrycode": " 93"
+    },
+    {
+        "textshort": "AG",
+        " textcountry": " ANTIGUA AND BARBUDA",
+        " textcountrycode": " 1268"
+    },
+    {
+        "textshort": "AI",
+        " textcountry": " ANGUILLA",
+        " textcountrycode": " 1264"
+    },
+    {
+        "textshort": "AL",
+        " textcountry": " ALBANIA",
+        " textcountrycode": " 355"
+    },
+    {
+        "textshort": "AM",
+        " textcountry": " ARMENIA",
+        " textcountrycode": " 374"
+    },
+    {
+        "textshort": "AN",
+        " textcountry": " NETHERLANDS ANTILLES",
+        " textcountrycode": " 599"
+    },
+    {
+        "textshort": "AO",
+        " textcountry": " ANGOLA",
+        " textcountrycode": " 244"
+    },
+    {
+        "textshort": "AQ",
+        " textcountry": " ANTARCTICA",
+        " textcountrycode": " 672"
+    },
+    {
+        "textshort": "AR",
+        " textcountry": " ARGENTINA",
+        " textcountrycode": " 54"
+    },
+    {
+        "textshort": "AS",
+        " textcountry": " AMERICAN SAMOA",
+        " textcountrycode": " 1684"
+    },
+    {
+        "textshort": "AT",
+        " textcountry": " AUSTRIA",
+        " textcountrycode": " 43"
+    },
+    {
+        "textshort": "AU",
+        " textcountry": " AUSTRALIA",
+        " textcountrycode": " 61"
+    },
+    {
+        "textshort": "AW",
+        " textcountry": " ARUBA",
+        " textcountrycode": " 297"
+    },
+    {
+        "textshort": "AZ",
+        " textcountry": " AZERBAIJAN",
+        " textcountrycode": " 994"
+    },
+    {
+        "textshort": "BA",
+        " textcountry": " BOSNIA AND HERZEGOVINA",
+        " textcountrycode": " 387"
+    },
+    {
+        "textshort": "BB",
+        " textcountry": " BARBADOS",
+        " textcountrycode": " 1246"
+    },
+    {
+        "textshort": "BD",
+        " textcountry": " BANGLADESH",
+        " textcountrycode": " 880"
+    },
+    {
+        "textshort": "BE",
+        " textcountry": " BELGIUM",
+        " textcountrycode": " 32"
+    },
+    {
+        "textshort": "BF",
+        " textcountry": " BURKINA FASO",
+        " textcountrycode": " 226"
+    },
+    {
+        "textshort": "BG",
+        " textcountry": " BULGARIA",
+        " textcountrycode": " 359"
+    },
+    {
+        "textshort": "BH",
+        " textcountry": " BAHRAIN",
+        " textcountrycode": " 973"
+    },
+    {
+        "textshort": "BI",
+        " textcountry": " BURUNDI",
+        " textcountrycode": " 257"
+    },
+    {
+        "textshort": "BJ",
+        " textcountry": " BENIN",
+        " textcountrycode": " 229"
+    },
+    {
+        "textshort": "BL",
+        " textcountry": " SAINT BARTHELEMY",
+        " textcountrycode": " 590"
+    },
+    {
+        "textshort": "BM",
+        " textcountry": " BERMUDA",
+        " textcountrycode": " 1441"
+    },
+    {
+        "textshort": "BN",
+        " textcountry": " BRUNEI DARUSSALAM",
+        " textcountrycode": " 673"
+    },
+    {
+        "textshort": "BO",
+        " textcountry": " BOLIVIA",
+        " textcountrycode": " 591"
+    },
+    {
+        "textshort": "BR",
+        " textcountry": " BRAZIL",
+        " textcountrycode": " 55"
+    },
+    {
+        "textshort": "BS",
+        " textcountry": " BAHAMAS",
+        " textcountrycode": " 1242"
+    },
+    {
+        "textshort": "BT",
+        " textcountry": " BHUTAN",
+        " textcountrycode": " 975"
+    },
+    {
+        "textshort": "BW",
+        " textcountry": " BOTSWANA",
+        " textcountrycode": " 267"
+    },
+    {
+        "textshort": "BY",
+        " textcountry": " BELARUS",
+        " textcountrycode": " 375"
+    },
+    {
+        "textshort": "BZ",
+        " textcountry": " BELIZE",
+        " textcountrycode": " 501"
+    },
+    {
+        "textshort": "CA",
+        " textcountry": " CANADA",
+        " textcountrycode": " 1"
+    },
+    {
+        "textshort": "CC",
+        " textcountry": " COCOS (KEELING) ISLANDS",
+        " textcountrycode": " 61"
+    },
+    {
+        "textshort": "CD",
+        " textcountry": " CONGO",
+        " textcountrycode": " THE DEMOCRATIC REPUBLIC OF THE",
+        "null": [
+            " 243"
+        ]
+    },
+    {
+        "textshort": "CF",
+        " textcountry": " CENTRAL AFRICAN REPUBLIC",
+        " textcountrycode": " 236"
+    },
+    {
+        "textshort": "CG",
+        " textcountry": " CONGO",
+        " textcountrycode": " 242"
+    },
+    {
+        "textshort": "CH",
+        " textcountry": " SWITZERLAND",
+        " textcountrycode": " 41"
+    },
+    {
+        "textshort": "CI",
+        " textcountry": " COTE D IVOIRE",
+        " textcountrycode": " 225"
+    },
+    {
+        "textshort": "CK",
+        " textcountry": " COOK ISLANDS",
+        " textcountrycode": " 682"
+    },
+    {
+        "textshort": "CL",
+        " textcountry": " CHILE",
+        " textcountrycode": " 56"
+    },
+    {
+        "textshort": "CM",
+        " textcountry": " CAMEROON",
+        " textcountrycode": " 237"
+    },
+    {
+        "textshort": "CN",
+        " textcountry": " CHINA",
+        " textcountrycode": " 86"
+    },
+    {
+        "textshort": "CO",
+        " textcountry": " COLOMBIA",
+        " textcountrycode": " 57"
+    },
+    {
+        "textshort": "CR",
+        " textcountry": " COSTA RICA",
+        " textcountrycode": " 506"
+    },
+    {
+        "textshort": "CU",
+        " textcountry": " CUBA",
+        " textcountrycode": " 53"
+    },
+    {
+        "textshort": "CV",
+        " textcountry": " CAPE VERDE",
+        " textcountrycode": " 238"
+    },
+    {
+        "textshort": "CX",
+        " textcountry": " CHRISTMAS ISLAND",
+        " textcountrycode": " 61"
+    },
+    {
+        "textshort": "CY",
+        " textcountry": " CYPRUS",
+        " textcountrycode": " 357"
+    },
+    {
+        "textshort": "CZ",
+        " textcountry": " CZECH REPUBLIC",
+        " textcountrycode": " 420"
+    },
+    {
+        "textshort": "DE",
+        " textcountry": " GERMANY",
+        " textcountrycode": " 49"
+    },
+    {
+        "textshort": "DJ",
+        " textcountry": " DJIBOUTI",
+        " textcountrycode": " 253"
+    },
+    {
+        "textshort": "DK",
+        " textcountry": " DENMARK",
+        " textcountrycode": " 45"
+    },
+    {
+        "textshort": "DM",
+        " textcountry": " DOMINICA",
+        " textcountrycode": " 1767"
+    },
+    {
+        "textshort": "DO",
+        " textcountry": " DOMINICAN REPUBLIC",
+        " textcountrycode": " 1809"
+    },
+    {
+        "textshort": "DZ",
+        " textcountry": " ALGERIA",
+        " textcountrycode": " 213"
+    },
+    {
+        "textshort": "EC",
+        " textcountry": " ECUADOR",
+        " textcountrycode": " 593"
+    },
+    {
+        "textshort": "EE",
+        " textcountry": " ESTONIA",
+        " textcountrycode": " 372"
+    },
+    {
+        "textshort": "EG",
+        " textcountry": " EGYPT",
+        " textcountrycode": " 20"
+    },
+    {
+        "textshort": "ER",
+        " textcountry": " ERITREA",
+        " textcountrycode": " 291"
+    },
+    {
+        "textshort": "ES",
+        " textcountry": " SPAIN",
+        " textcountrycode": " 34"
+    },
+    {
+        "textshort": "ET",
+        " textcountry": " ETHIOPIA",
+        " textcountrycode": " 251"
+    },
+    {
+        "textshort": "FI",
+        " textcountry": " FINLAND",
+        " textcountrycode": " 358"
+    },
+    {
+        "textshort": "FJ",
+        " textcountry": " FIJI",
+        " textcountrycode": " 679"
+    },
+    {
+        "textshort": "FK",
+        " textcountry": " FALKLAND ISLANDS (MALVINAS)",
+        " textcountrycode": " 500"
+    },
+    {
+        "textshort": "FM",
+        " textcountry": " MICRONESIA",
+        " textcountrycode": " FEDERATED STATES OF",
+        "null": [
+            " 691"
+        ]
+    },
+    {
+        "textshort": "FO",
+        " textcountry": " FAROE ISLANDS",
+        " textcountrycode": " 298"
+    },
+    {
+        "textshort": "FR",
+        " textcountry": " FRANCE",
+        " textcountrycode": " 33"
+    },
+    {
+        "textshort": "GA",
+        " textcountry": " GABON",
+        " textcountrycode": " 241"
+    },
+    {
+        "textshort": "GB",
+        " textcountry": " UNITED KINGDOM",
+        " textcountrycode": " 44"
+    },
+    {
+        "textshort": "GD",
+        " textcountry": " GRENADA",
+        " textcountrycode": " 1473"
+    },
+    {
+        "textshort": "GE",
+        " textcountry": " GEORGIA",
+        " textcountrycode": " 995"
+    },
+    {
+        "textshort": "GH",
+        " textcountry": " GHANA",
+        " textcountrycode": " 233"
+    },
+    {
+        "textshort": "GI",
+        " textcountry": " GIBRALTAR",
+        " textcountrycode": " 350"
+    },
+    {
+        "textshort": "GL",
+        " textcountry": " GREENLAND",
+        " textcountrycode": " 299"
+    },
+    {
+        "textshort": "GM",
+        " textcountry": " GAMBIA",
+        " textcountrycode": " 220"
+    },
+    {
+        "textshort": "GN",
+        " textcountry": " GUINEA",
+        " textcountrycode": " 224"
+    },
+    {
+        "textshort": "GQ",
+        " textcountry": " EQUATORIAL GUINEA",
+        " textcountrycode": " 240"
+    },
+    {
+        "textshort": "GR",
+        " textcountry": " GREECE",
+        " textcountrycode": " 30"
+    },
+    {
+        "textshort": "GT",
+        " textcountry": " GUATEMALA",
+        " textcountrycode": " 502"
+    },
+    {
+        "textshort": "GU",
+        " textcountry": " GUAM",
+        " textcountrycode": " 1671"
+    },
+    {
+        "textshort": "GW",
+        " textcountry": " GUINEA-BISSAU",
+        " textcountrycode": " 245"
+    },
+    {
+        "textshort": "GY",
+        " textcountry": " GUYANA",
+        " textcountrycode": " 592"
+    },
+    {
+        "textshort": "HK",
+        " textcountry": " HONG KONG",
+        " textcountrycode": " 852"
+    },
+    {
+        "textshort": "HN",
+        " textcountry": " HONDURAS",
+        " textcountrycode": " 504"
+    },
+    {
+        "textshort": "HR",
+        " textcountry": " CROATIA",
+        " textcountrycode": " 385"
+    },
+    {
+        "textshort": "HT",
+        " textcountry": " HAITI",
+        " textcountrycode": " 509"
+    },
+    {
+        "textshort": "HU",
+        " textcountry": " HUNGARY",
+        " textcountrycode": " 36"
+    },
+    {
+        "textshort": "ID",
+        " textcountry": " INDONESIA",
+        " textcountrycode": " 62"
+    },
+    {
+        "textshort": "IE",
+        " textcountry": " IRELAND",
+        " textcountrycode": " 353"
+    },
+    {
+        "textshort": "IL",
+        " textcountry": " ISRAEL",
+        " textcountrycode": " 972"
+    },
+    {
+        "textshort": "IM",
+        " textcountry": " ISLE OF MAN",
+        " textcountrycode": " 44"
+    },
+    {
+        "textshort": "IN",
+        " textcountry": " INDIA",
+        " textcountrycode": " 91"
+    },
+    {
+        "textshort": "IQ",
+        " textcountry": " IRAQ",
+        " textcountrycode": " 964"
+    },
+    {
+        "textshort": "IR",
+        " textcountry": " IRAN",
+        " textcountrycode": " ISLAMIC REPUBLIC OF",
+        "null": [
+            " 98"
+        ]
+    },
+    {
+        "textshort": "IS",
+        " textcountry": " ICELAND",
+        " textcountrycode": " 354"
+    },
+    {
+        "textshort": "IT",
+        " textcountry": " ITALY",
+        " textcountrycode": " 39"
+    },
+    {
+        "textshort": "JM",
+        " textcountry": " JAMAICA",
+        " textcountrycode": " 1876"
+    },
+    {
+        "textshort": "JO",
+        " textcountry": " JORDAN",
+        " textcountrycode": " 962"
+    },
+    {
+        "textshort": "JP",
+        " textcountry": " JAPAN",
+        " textcountrycode": " 81"
+    },
+    {
+        "textshort": "KE",
+        " textcountry": " KENYA",
+        " textcountrycode": " 254"
+    },
+    {
+        "textshort": "KG",
+        " textcountry": " KYRGYZSTAN",
+        " textcountrycode": " 996"
+    },
+    {
+        "textshort": "KH",
+        " textcountry": " CAMBODIA",
+        " textcountrycode": " 855"
+    },
+    {
+        "textshort": "KI",
+        " textcountry": " KIRIBATI",
+        " textcountrycode": " 686"
+    },
+    {
+        "textshort": "KM",
+        " textcountry": " COMOROS",
+        " textcountrycode": " 269"
+    },
+    {
+        "textshort": "KN",
+        " textcountry": " SAINT KITTS AND NEVIS",
+        " textcountrycode": " 1869"
+    },
+    {
+        "textshort": "KP",
+        " textcountry": " KOREA DEMOCRATIC PEOPLES REPUBLIC OF",
+        " textcountrycode": " 850"
+    },
+    {
+        "textshort": "KR",
+        " textcountry": " KOREA REPUBLIC OF",
+        " textcountrycode": " 82"
+    },
+    {
+        "textshort": "KW",
+        " textcountry": " KUWAIT",
+        " textcountrycode": " 965"
+    },
+    {
+        "textshort": "KY",
+        " textcountry": " CAYMAN ISLANDS",
+        " textcountrycode": " 1345"
+    },
+    {
+        "textshort": "KZ",
+        " textcountry": " KAZAKSTAN",
+        " textcountrycode": " 7"
+    },
+    {
+        "textshort": "LA",
+        " textcountry": " LAO PEOPLES DEMOCRATIC REPUBLIC",
+        " textcountrycode": " 856"
+    },
+    {
+        "textshort": "LB",
+        " textcountry": " LEBANON",
+        " textcountrycode": " 961"
+    },
+    {
+        "textshort": "LC",
+        " textcountry": " SAINT LUCIA",
+        " textcountrycode": " 1758"
+    },
+    {
+        "textshort": "LI",
+        " textcountry": " LIECHTENSTEIN",
+        " textcountrycode": " 423"
+    },
+    {
+        "textshort": "LK",
+        " textcountry": " SRI LANKA",
+        " textcountrycode": " 94"
+    },
+    {
+        "textshort": "LR",
+        " textcountry": " LIBERIA",
+        " textcountrycode": " 231"
+    },
+    {
+        "textshort": "LS",
+        " textcountry": " LESOTHO",
+        " textcountrycode": " 266"
+    },
+    {
+        "textshort": "LT",
+        " textcountry": " LITHUANIA",
+        " textcountrycode": " 370"
+    },
+    {
+        "textshort": "LU",
+        " textcountry": " LUXEMBOURG",
+        " textcountrycode": " 352"
+    },
+    {
+        "textshort": "LV",
+        " textcountry": " LATVIA",
+        " textcountrycode": " 371"
+    },
+    {
+        "textshort": "LY",
+        " textcountry": " LIBYAN ARAB JAMAHIRIYA",
+        " textcountrycode": " 218"
+    },
+    {
+        "textshort": "MA",
+        " textcountry": " MOROCCO",
+        " textcountrycode": " 212"
+    },
+    {
+        "textshort": "MC",
+        " textcountry": " MONACO",
+        " textcountrycode": " 377"
+    },
+    {
+        "textshort": "MD",
+        " textcountry": " MOLDOVA",
+        " textcountrycode": " REPUBLIC OF",
+        "null": [
+            " 373"
+        ]
+    },
+    {
+        "textshort": "ME",
+        " textcountry": " MONTENEGRO",
+        " textcountrycode": " 382"
+    },
+    {
+        "textshort": "MF",
+        " textcountry": " SAINT MARTIN",
+        " textcountrycode": " 1599"
+    },
+    {
+        "textshort": "MG",
+        " textcountry": " MADAGASCAR",
+        " textcountrycode": " 261"
+    },
+    {
+        "textshort": "MH",
+        " textcountry": " MARSHALL ISLANDS",
+        " textcountrycode": " 692"
+    },
+    {
+        "textshort": "MK",
+        " textcountry": " MACEDONIA",
+        " textcountrycode": " THE FORMER YUGOSLAV REPUBLIC OF",
+        "null": [
+            " 389"
+        ]
+    },
+    {
+        "textshort": "ML",
+        " textcountry": " MALI",
+        " textcountrycode": " 223"
+    },
+    {
+        "textshort": "MM",
+        " textcountry": " MYANMAR",
+        " textcountrycode": " 95"
+    },
+    {
+        "textshort": "MN",
+        " textcountry": " MONGOLIA",
+        " textcountrycode": " 976"
+    },
+    {
+        "textshort": "MO",
+        " textcountry": " MACAU",
+        " textcountrycode": " 853"
+    },
+    {
+        "textshort": "MP",
+        " textcountry": " NORTHERN MARIANA ISLANDS",
+        " textcountrycode": " 1670"
+    },
+    {
+        "textshort": "MR",
+        " textcountry": " MAURITANIA",
+        " textcountrycode": " 222"
+    },
+    {
+        "textshort": "MS",
+        " textcountry": " MONTSERRAT",
+        " textcountrycode": " 1664"
+    },
+    {
+        "textshort": "MT",
+        " textcountry": " MALTA",
+        " textcountrycode": " 356"
+    },
+    {
+        "textshort": "MU",
+        " textcountry": " MAURITIUS",
+        " textcountrycode": " 230"
+    },
+    {
+        "textshort": "MV",
+        " textcountry": " MALDIVES",
+        " textcountrycode": " 960"
+    },
+    {
+        "textshort": "MW",
+        " textcountry": " MALAWI",
+        " textcountrycode": " 265"
+    },
+    {
+        "textshort": "MX",
+        " textcountry": " MEXICO",
+        " textcountrycode": " 52"
+    },
+    {
+        "textshort": "MY",
+        " textcountry": " MALAYSIA",
+        " textcountrycode": " 60"
+    },
+    {
+        "textshort": "MZ",
+        " textcountry": " MOZAMBIQUE",
+        " textcountrycode": " 258"
+    },
+    {
+        "textshort": "NA",
+        " textcountry": " NAMIBIA",
+        " textcountrycode": " 264"
+    },
+    {
+        "textshort": "NC",
+        " textcountry": " NEW CALEDONIA",
+        " textcountrycode": " 687"
+    },
+    {
+        "textshort": "NE",
+        " textcountry": " NIGER",
+        " textcountrycode": " 227"
+    },
+    {
+        "textshort": "NG",
+        " textcountry": " NIGERIA",
+        " textcountrycode": " 234"
+    },
+    {
+        "textshort": "NI",
+        " textcountry": " NICARAGUA",
+        " textcountrycode": " 505"
+    },
+    {
+        "textshort": "NL",
+        " textcountry": " NETHERLANDS",
+        " textcountrycode": " 31"
+    },
+    {
+        "textshort": "NO",
+        " textcountry": " NORWAY",
+        " textcountrycode": " 47"
+    },
+    {
+        "textshort": "NP",
+        " textcountry": " NEPAL",
+        " textcountrycode": " 977"
+    },
+    {
+        "textshort": "NR",
+        " textcountry": " NAURU",
+        " textcountrycode": " 674"
+    },
+    {
+        "textshort": "NU",
+        " textcountry": " NIUE",
+        " textcountrycode": " 683"
+    },
+    {
+        "textshort": "NZ",
+        " textcountry": " NEW ZEALAND",
+        " textcountrycode": " 64"
+    },
+    {
+        "textshort": "OM",
+        " textcountry": " OMAN",
+        " textcountrycode": " 968"
+    },
+    {
+        "textshort": "PA",
+        " textcountry": " PANAMA",
+        " textcountrycode": " 507"
+    },
+    {
+        "textshort": "PE",
+        " textcountry": " PERU",
+        " textcountrycode": " 51"
+    },
+    {
+        "textshort": "PF",
+        " textcountry": " FRENCH POLYNESIA",
+        " textcountrycode": " 689"
+    },
+    {
+        "textshort": "PG",
+        " textcountry": " PAPUA NEW GUINEA",
+        " textcountrycode": " 675"
+    },
+    {
+        "textshort": "PH",
+        " textcountry": " PHILIPPINES",
+        " textcountrycode": " 63"
+    },
+    {
+        "textshort": "PK",
+        " textcountry": " PAKISTAN",
+        " textcountrycode": " 92"
+    },
+    {
+        "textshort": "PL",
+        " textcountry": " POLAND",
+        " textcountrycode": " 48"
+    },
+    {
+        "textshort": "PM",
+        " textcountry": " SAINT PIERRE AND MIQUELON",
+        " textcountrycode": " 508"
+    },
+    {
+        "textshort": "PN",
+        " textcountry": " PITCAIRN",
+        " textcountrycode": " 870"
+    },
+    {
+        "textshort": "PR",
+        " textcountry": " PUERTO RICO",
+        " textcountrycode": " 1"
+    },
+    {
+        "textshort": "PT",
+        " textcountry": " PORTUGAL",
+        " textcountrycode": " 351"
+    },
+    {
+        "textshort": "PW",
+        " textcountry": " PALAU",
+        " textcountrycode": " 680"
+    },
+    {
+        "textshort": "PY",
+        " textcountry": " PARAGUAY",
+        " textcountrycode": " 595"
+    },
+    {
+        "textshort": "QA",
+        " textcountry": " QATAR",
+        " textcountrycode": " 974"
+    },
+    {
+        "textshort": "RO",
+        " textcountry": " ROMANIA",
+        " textcountrycode": " 40"
+    },
+    {
+        "textshort": "RS",
+        " textcountry": " SERBIA",
+        " textcountrycode": " 381"
+    },
+    {
+        "textshort": "RU",
+        " textcountry": " RUSSIAN FEDERATION",
+        " textcountrycode": " 7"
+    },
+    {
+        "textshort": "RW",
+        " textcountry": " RWANDA",
+        " textcountrycode": " 250"
+    },
+    {
+        "textshort": "SA",
+        " textcountry": " SAUDI ARABIA",
+        " textcountrycode": " 966"
+    },
+    {
+        "textshort": "SB",
+        " textcountry": " SOLOMON ISLANDS",
+        " textcountrycode": " 677"
+    },
+    {
+        "textshort": "SC",
+        " textcountry": " SEYCHELLES",
+        " textcountrycode": " 248"
+    },
+    {
+        "textshort": "SD",
+        " textcountry": " SUDAN",
+        " textcountrycode": " 249"
+    },
+    {
+        "textshort": "SE",
+        " textcountry": " SWEDEN",
+        " textcountrycode": " 46"
+    },
+    {
+        "textshort": "SG",
+        " textcountry": " SINGAPORE",
+        " textcountrycode": " 65"
+    },
+    {
+        "textshort": "SH",
+        " textcountry": " SAINT HELENA",
+        " textcountrycode": " 290"
+    },
+    {
+        "textshort": "SI",
+        " textcountry": " SLOVENIA",
+        " textcountrycode": " 386"
+    },
+    {
+        "textshort": "SK",
+        " textcountry": " SLOVAKIA",
+        " textcountrycode": " 421"
+    },
+    {
+        "textshort": "SL",
+        " textcountry": " SIERRA LEONE",
+        " textcountrycode": " 232"
+    },
+    {
+        "textshort": "SM",
+        " textcountry": " SAN MARINO",
+        " textcountrycode": " 378"
+    },
+    {
+        "textshort": "SN",
+        " textcountry": " SENEGAL",
+        " textcountrycode": " 221"
+    },
+    {
+        "textshort": "SO",
+        " textcountry": " SOMALIA",
+        " textcountrycode": " 252"
+    },
+    {
+        "textshort": "SR",
+        " textcountry": " SURINAME",
+        " textcountrycode": " 597"
+    },
+    {
+        "textshort": "ST",
+        " textcountry": " SAO TOME AND PRINCIPE",
+        " textcountrycode": " 239"
+    },
+    {
+        "textshort": "SV",
+        " textcountry": " EL SALVADOR",
+        " textcountrycode": " 503"
+    },
+    {
+        "textshort": "SY",
+        " textcountry": " SYRIAN ARAB REPUBLIC",
+        " textcountrycode": " 963"
+    },
+    {
+        "textshort": "SZ",
+        " textcountry": " SWAZILAND",
+        " textcountrycode": " 268"
+    },
+    {
+        "textshort": "TC",
+        " textcountry": " TURKS AND CAICOS ISLANDS",
+        " textcountrycode": " 1649"
+    },
+    {
+        "textshort": "TD",
+        " textcountry": " CHAD",
+        " textcountrycode": " 235"
+    },
+    {
+        "textshort": "TG",
+        " textcountry": " TOGO",
+        " textcountrycode": " 228"
+    },
+    {
+        "textshort": "TH",
+        " textcountry": " THAILAND",
+        " textcountrycode": " 66"
+    },
+    {
+        "textshort": "TJ",
+        " textcountry": " TAJIKISTAN",
+        " textcountrycode": " 992"
+    },
+    {
+        "textshort": "TK",
+        " textcountry": " TOKELAU",
+        " textcountrycode": " 690"
+    },
+    {
+        "textshort": "TL",
+        " textcountry": " TIMOR-LESTE",
+        " textcountrycode": " 670"
+    },
+    {
+        "textshort": "TM",
+        " textcountry": " TURKMENISTAN",
+        " textcountrycode": " 993"
+    },
+    {
+        "textshort": "TN",
+        " textcountry": " TUNISIA",
+        " textcountrycode": " 216"
+    },
+    {
+        "textshort": "TO",
+        " textcountry": " TONGA",
+        " textcountrycode": " 676"
+    },
+    {
+        "textshort": "TR",
+        " textcountry": " TURKEY",
+        " textcountrycode": " 90"
+    },
+    {
+        "textshort": "TT",
+        " textcountry": " TRINIDAD AND TOBAGO",
+        " textcountrycode": " 1868"
+    },
+    {
+        "textshort": "TV",
+        " textcountry": " TUVALU",
+        " textcountrycode": " 688"
+    },
+    {
+        "textshort": "TW",
+        " textcountry": " TAIWAN",
+        " textcountrycode": " PROVINCE OF CHINA",
+        "null": [
+            " 886"
+        ]
+    },
+    {
+        "textshort": "TZ",
+        " textcountry": " TANZANIA",
+        " textcountrycode": " UNITED REPUBLIC OF",
+        "null": [
+            " 255"
+        ]
+    },
+    {
+        "textshort": "UA",
+        " textcountry": " UKRAINE",
+        " textcountrycode": " 380"
+    },
+    {
+        "textshort": "UG",
+        " textcountry": " UGANDA",
+        " textcountrycode": " 256"
+    },
+    {
+        "textshort": "US",
+        " textcountry": " UNITED STATES",
+        " textcountrycode": " 1"
+    },
+    {
+        "textshort": "UY",
+        " textcountry": " URUGUAY",
+        " textcountrycode": " 598"
+    },
+    {
+        "textshort": "UZ",
+        " textcountry": " UZBEKISTAN",
+        " textcountrycode": " 998"
+    },
+    {
+        "textshort": "VA",
+        " textcountry": " HOLY SEE (VATICAN CITY STATE)",
+        " textcountrycode": " 39"
+    },
+    {
+        "textshort": "VC",
+        " textcountry": " SAINT VINCENT AND THE GRENADINES",
+        " textcountrycode": " 1784"
+    },
+    {
+        "textshort": "VE",
+        " textcountry": " VENEZUELA",
+        " textcountrycode": " 58"
+    },
+    {
+        "textshort": "VG",
+        " textcountry": " VIRGIN ISLANDS",
+        " textcountrycode": " BRITISH",
+        "null": [
+            " 1284"
+        ]
+    },
+    {
+        "textshort": "VI",
+        " textcountry": " VIRGIN ISLANDS",
+        " textcountrycode": " U.S.",
+        "null": [
+            " 1340"
+        ]
+    },
+    {
+        "textshort": "VN",
+        " textcountry": " VIET NAM",
+        " textcountrycode": " 84"
+    },
+    {
+        "textshort": "VU",
+        " textcountry": " VANUATU",
+        " textcountrycode": " 678"
+    },
+    {
+        "textshort": "WF",
+        " textcountry": " WALLIS AND FUTUNA",
+        " textcountrycode": " 681"
+    },
+    {
+        "textshort": "WS",
+        " textcountry": " SAMOA",
+        " textcountrycode": " 685"
+    },
+    {
+        "textshort": "XK",
+        " textcountry": " KOSOVO",
+        " textcountrycode": " 381"
+    },
+    {
+        "textshort": "YE",
+        " textcountry": " YEMEN",
+        " textcountrycode": " 967"
+    },
+    {
+        "textshort": "YT",
+        " textcountry": " MAYOTTE",
+        " textcountrycode": " 262"
+    },
+    {
+        "textshort": "ZA",
+        " textcountry": " SOUTH AFRICA",
+        " textcountrycode": " 27"
+    },
+    {
+        "textshort": "ZM",
+        " textcountry": " ZAMBIA",
+        " textcountrycode": " 260"
+    },
+    {
+        "textshort": "ZW",
+        " textcountry": " ZIMBABWE",
+        " textcountrycode": " 263"
+    }
+]

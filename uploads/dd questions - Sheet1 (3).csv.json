@@ -1,0 +1,238 @@
+[
+    {
+        "texttype": "Arc",
+        "textdescription": "First slide is the waiting slide, that sets the stage"
+    },
+    {
+        "texttype": "Arc",
+        "textdescription": "Second slide gets the audience's attention"
+    },
+    {
+        "texttype": "Arc",
+        "textdescription": "Last Slide has request"
+    },
+    {
+        "texttype": "Arc",
+        "textdescription": "Last slide has contact info"
+    },
+    {
+        "texttype": "Arc",
+        "textdescription": "One slide about the product"
+    },
+    {
+        "texttype": "Arc",
+        "textdescription": "Appendix has answers for top 5 questions"
+    },
+    {
+        "texttype": "Facts",
+        "textdescription": "What is the Name of the solution?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "Who is the Customer?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the problem that the customer has?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the solution to the customer problem?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What are the existing Alternatives?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "Where are the Early Adopters?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the Unique Value proposition for the Early Adopters"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the unfair advantage of the team?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What are the key metrics that they are tracking?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the revenue Model?/ Revenue Mechanism"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What is the cost of doing business?"
+    },
+    {
+        "texttype": "Biz model",
+        "textdescription": "What are the Channels for the product?"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "Lifetime customer value"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "Customer Acquisition costs"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "Fixed costs?"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "Staffing costs?"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "What is the ROI?"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "Financial Inflection points - Break even, Milestones, Cashflow positive, Growth rate"
+    },
+    {
+        "texttype": "Cash flow",
+        "textdescription": "What is the amount of money needed?"
+    },
+    {
+        "texttype": "Content Strategy",
+        "textdescription": "What is the evidence of a social media/content strategy?"
+    },
+    {
+        "texttype": "Content Strategy",
+        "textdescription": "What is the narrative theme?"
+    },
+    {
+        "texttype": "Content Strategy",
+        "textdescription": "What is the evidence of customer awareness?"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "What is the evidence that the Market cares that the TEAM executes"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "What is the evidence that they are focused on a growth company of 5% growth per month?"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "What is the evidence that they engage their customers?"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "Is there an exit plan?"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "What is the milestone that this round of funding will hit?"
+    },
+    {
+        "texttype": "Execution",
+        "textdescription": "What does the next round of funding look like?"
+    },
+    {
+        "texttype": "Market",
+        "textdescription": "How will the team go to market?"
+    },
+    {
+        "texttype": "Market",
+        "textdescription": "What is the Market Size?"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "Have Contact information on the title page"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "Have social media reference on every page"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "Have company name/logo on every page"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "As a sales document, this is an emotional journey"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "Faces are emotional - especially \u00be face views"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "Colors are emotional - The presentation was colorful"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "3-5 words , 30pt font"
+    },
+    {
+        "texttype": "Presentation",
+        "textdescription": "This is a Sales presentation to Investors , not a product presentation"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Sales Funnel"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Acquisition"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Activation"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Retention"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Referral"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Revenue"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Did you get the audience's attention?"
+    },
+    {
+        "texttype": "Metric",
+        "textdescription": "Was the team remarkable?"
+    },
+    {
+        "texttype": "Structure",
+        "textdescription": "Only One point per slide , Keep the process focused"
+    },
+    {
+        "texttype": "Structure",
+        "textdescription": "Do not provide ADHD investors with hairballs to unravel/ Do not make investors do math in their heads"
+    },
+    {
+        "texttype": "Structure",
+        "textdescription": "It is not about being complete, it is about motivating the investors to take the next meeting."
+    },
+    {
+        "texttype": "Structure",
+        "textdescription": "What is the call to action / Request?"
+    },
+    {
+        "texttype": "Team",
+        "textdescription": "What is the evidence that the TEAM can execute on this business"
+    },
+    {
+        "texttype": "Team",
+        "textdescription": "Is the team committed?"
+    },
+    {
+        "texttype": "Team",
+        "textdescription": "Has the Team worked together before?"
+    }
+]

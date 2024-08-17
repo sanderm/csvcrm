@@ -1,0 +1,1553 @@
+[
+    {
+        "textshort": "ad",
+        " textcountry": " Andorra",
+        " texty": " 42.3",
+        " textz": " 1.3"
+    },
+    {
+        "textshort": "ae",
+        " textcountry": " United Arab Emirates",
+        " texty": " 24",
+        " textz": " 54"
+    },
+    {
+        "textshort": "af",
+        " textcountry": " Afghanistan",
+        " texty": " 33",
+        " textz": " 65"
+    },
+    {
+        "textshort": "ag",
+        " textcountry": " Antigua and Barbuda",
+        " texty": " 17.03",
+        " textz": " -61.48"
+    },
+    {
+        "textshort": "ai",
+        " textcountry": " Anguilla",
+        " texty": " 18.15",
+        " textz": " -63.1"
+    },
+    {
+        "textshort": "al",
+        " textcountry": " Albania",
+        " texty": " 41",
+        " textz": " 20"
+    },
+    {
+        "textshort": "am",
+        " textcountry": " Armenia",
+        " texty": " 40",
+        " textz": " 45"
+    },
+    {
+        "textshort": "an",
+        " textcountry": " Netherlands Antilles",
+        " texty": " 12.15",
+        " textz": " -68.45"
+    },
+    {
+        "textshort": "ao",
+        " textcountry": " Angola",
+        " texty": " -12.3",
+        " textz": " 18.3"
+    },
+    {
+        "textshort": "aq",
+        " textcountry": " Antarctica",
+        " texty": " -90",
+        " textz": " 0"
+    },
+    {
+        "textshort": "ar",
+        " textcountry": " Argentina",
+        " texty": " -34",
+        " textz": " -64"
+    },
+    {
+        "textshort": "as",
+        " textcountry": " American Samoa",
+        " texty": " -14.2",
+        " textz": " -170"
+    },
+    {
+        "textshort": "at",
+        " textcountry": " Austria",
+        " texty": " 47.2",
+        " textz": " 13.2"
+    },
+    {
+        "textshort": "au",
+        " textcountry": " Australia",
+        " texty": " -27",
+        " textz": " 133"
+    },
+    {
+        "textshort": "aw",
+        " textcountry": " Aruba",
+        " texty": " 12.3",
+        " textz": " -69.58"
+    },
+    {
+        "textshort": "az",
+        " textcountry": " Azerbaijan",
+        " texty": " 40.3",
+        " textz": " 47.3"
+    },
+    {
+        "textshort": "ba",
+        " textcountry": " Bosnia and Herzegovina",
+        " texty": " 44",
+        " textz": " 18"
+    },
+    {
+        "textshort": "bb",
+        " textcountry": " Barbados",
+        " texty": " 13.1",
+        " textz": " -59.32"
+    },
+    {
+        "textshort": "bd",
+        " textcountry": " Bangladesh",
+        " texty": " 24",
+        " textz": " 90"
+    },
+    {
+        "textshort": "be",
+        " textcountry": " Belgium",
+        " texty": " 50.5",
+        " textz": " 4"
+    },
+    {
+        "textshort": "bf",
+        " textcountry": " Burkina Faso",
+        " texty": " 13",
+        " textz": " -2"
+    },
+    {
+        "textshort": "bg",
+        " textcountry": " Bulgaria",
+        " texty": " 43",
+        " textz": " 25"
+    },
+    {
+        "textshort": "bh",
+        " textcountry": " Bahrain",
+        " texty": " 26",
+        " textz": " 50.33"
+    },
+    {
+        "textshort": "bi",
+        " textcountry": " Burundi",
+        " texty": " -3.3",
+        " textz": " 30"
+    },
+    {
+        "textshort": "bj",
+        " textcountry": " Benin",
+        " texty": " 9.3",
+        " textz": " 2.15"
+    },
+    {
+        "textshort": "bm",
+        " textcountry": " Bermuda",
+        " texty": " 32.2",
+        " textz": " -64.45"
+    },
+    {
+        "textshort": "bn",
+        " textcountry": " Brunei Darussalam",
+        " texty": " 4.3",
+        " textz": " 114.4"
+    },
+    {
+        "textshort": "bo",
+        " textcountry": " Bolivia (Plurinational State of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "br",
+        " textcountry": " Brazil",
+        " texty": " -10",
+        " textz": " -55"
+    },
+    {
+        "textshort": "bs",
+        " textcountry": " Bahamas",
+        " texty": " 24.15",
+        " textz": " -76"
+    },
+    {
+        "textshort": "bt",
+        " textcountry": " Bhutan",
+        " texty": " 27.3",
+        " textz": " 90.3"
+    },
+    {
+        "textshort": "bv",
+        " textcountry": " Bouvet Island",
+        " texty": " -54.26",
+        " textz": " 3.24"
+    },
+    {
+        "textshort": "bw",
+        " textcountry": " Botswana",
+        " texty": " -22",
+        " textz": " 24"
+    },
+    {
+        "textshort": "by",
+        " textcountry": " Belarus",
+        " texty": " 53",
+        " textz": " 28"
+    },
+    {
+        "textshort": "bz",
+        " textcountry": " Belize",
+        " texty": " 17.15",
+        " textz": " -88.45"
+    },
+    {
+        "textshort": "ca",
+        " textcountry": " Canada",
+        " texty": " 60",
+        " textz": " -95"
+    },
+    {
+        "textshort": "cc",
+        " textcountry": " Cocos (Keeling",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "cf",
+        " textcountry": " Central African Republic",
+        " texty": " 7",
+        " textz": " 21"
+    },
+    {
+        "textshort": "cg",
+        " textcountry": " Congo",
+        " texty": " 0",
+        " textz": " 25"
+    },
+    {
+        "textshort": "ch",
+        " textcountry": " Switzerland",
+        " texty": " 47",
+        " textz": " 8"
+    },
+    {
+        "textshort": "ck",
+        " textcountry": " Cook Islands",
+        " texty": " -21.14",
+        " textz": " -159.46"
+    },
+    {
+        "textshort": "cl",
+        " textcountry": " Chile",
+        " texty": " -30",
+        " textz": " -71"
+    },
+    {
+        "textshort": "cm",
+        " textcountry": " Cameroon",
+        " texty": " 6",
+        " textz": " 12"
+    },
+    {
+        "textshort": "cn",
+        " textcountry": " China",
+        " texty": " 35",
+        " textz": " 105"
+    },
+    {
+        "textshort": "co",
+        " textcountry": " Colombia",
+        " texty": " 4",
+        " textz": " -72"
+    },
+    {
+        "textshort": "cr",
+        " textcountry": " Costa Rica",
+        " texty": " 10",
+        " textz": " -84"
+    },
+    {
+        "textshort": "cs",
+        " textcountry": " Serbia and Montenegro",
+        " texty": " 43.57",
+        " textz": " 21.41"
+    },
+    {
+        "textshort": "cu",
+        " textcountry": " Cuba",
+        " texty": " 21.3",
+        " textz": " -80"
+    },
+    {
+        "textshort": "cv",
+        " textcountry": " Cabo Verde",
+        " texty": " 16",
+        " textz": " -24"
+    },
+    {
+        "textshort": "cx",
+        " textcountry": " Christmas Island",
+        " texty": " -10.3",
+        " textz": " 105.4"
+    },
+    {
+        "textshort": "cy",
+        " textcountry": " Cyprus",
+        " texty": " 35",
+        " textz": " 33"
+    },
+    {
+        "textshort": "cz",
+        " textcountry": " Czech Republic",
+        " texty": " 49.45",
+        " textz": " 15.3"
+    },
+    {
+        "textshort": "de",
+        " textcountry": " Germany",
+        " texty": " 51",
+        " textz": " 9"
+    },
+    {
+        "textshort": "dj",
+        " textcountry": " Djibouti",
+        " texty": " 11.3",
+        " textz": " 43"
+    },
+    {
+        "textshort": "dk",
+        " textcountry": " Denmark",
+        " texty": " 56",
+        " textz": " 10"
+    },
+    {
+        "textshort": "dm",
+        " textcountry": " Dominica",
+        " texty": " 15.25",
+        " textz": " -61.2"
+    },
+    {
+        "textshort": "do",
+        " textcountry": " Dominican Republic",
+        " texty": " 19",
+        " textz": " -70.4"
+    },
+    {
+        "textshort": "dz",
+        " textcountry": " Algeria",
+        " texty": " 28",
+        " textz": " 3"
+    },
+    {
+        "textshort": "ec",
+        " textcountry": " Ecuador",
+        " texty": " -2",
+        " textz": " -77.3"
+    },
+    {
+        "textshort": "ee",
+        " textcountry": " Estonia",
+        " texty": " 59",
+        " textz": " 26"
+    },
+    {
+        "textshort": "eg",
+        " textcountry": " Egypt",
+        " texty": " 27",
+        " textz": " 30"
+    },
+    {
+        "textshort": "eh",
+        " textcountry": " Western Sahara",
+        " texty": " 24.3",
+        " textz": " -13"
+    },
+    {
+        "textshort": "er",
+        " textcountry": " Eritrea",
+        " texty": " 15",
+        " textz": " 39"
+    },
+    {
+        "textshort": "es",
+        " textcountry": " Spain",
+        " texty": " 40",
+        " textz": " -4"
+    },
+    {
+        "textshort": "et",
+        " textcountry": " Ethiopia",
+        " texty": " 8",
+        " textz": " 38"
+    },
+    {
+        "textshort": "fi",
+        " textcountry": " Finland",
+        " texty": " 64",
+        " textz": " 26"
+    },
+    {
+        "textshort": "fj",
+        " textcountry": " Fiji",
+        " texty": " -18",
+        " textz": " 175"
+    },
+    {
+        "textshort": "fk",
+        " textcountry": " Falkland Islands (Malvinas",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "fm",
+        " textcountry": " Micronesia (Federated States of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "fo",
+        " textcountry": " Faroe Islands",
+        " texty": " 62",
+        " textz": " -7"
+    },
+    {
+        "textshort": "fr",
+        " textcountry": " France",
+        " texty": " 46",
+        " textz": " 2"
+    },
+    {
+        "textshort": "ci",
+        " textcountry": " C\u00f4te d\\Ivory Coast",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "ga",
+        " textcountry": " Gabon",
+        " texty": " -1",
+        " textz": " 11.45"
+    },
+    {
+        "textshort": "gd",
+        " textcountry": " Grenada",
+        " texty": " 12.07",
+        " textz": " -61.4"
+    },
+    {
+        "textshort": "ge",
+        " textcountry": " Georgia",
+        " texty": " 42",
+        " textz": " 43.3"
+    },
+    {
+        "textshort": "gf",
+        " textcountry": " French Guiana",
+        " texty": " 4",
+        " textz": " -53"
+    },
+    {
+        "textshort": "gh",
+        " textcountry": " Ghana",
+        " texty": " 8",
+        " textz": " -2"
+    },
+    {
+        "textshort": "gi",
+        " textcountry": " Gibraltar",
+        " texty": " 36.8",
+        " textz": " -5.21"
+    },
+    {
+        "textshort": "gl",
+        " textcountry": " Greenland",
+        " texty": " 72",
+        " textz": " -40"
+    },
+    {
+        "textshort": "gm",
+        " textcountry": " Gambia",
+        " texty": " 13.28",
+        " textz": " -16.34"
+    },
+    {
+        "textshort": "gn",
+        " textcountry": " Guinea",
+        " texty": " 11",
+        " textz": " -10"
+    },
+    {
+        "textshort": "gp",
+        " textcountry": " Guadeloupe",
+        " texty": " 16.15",
+        " textz": " -61.35"
+    },
+    {
+        "textshort": "gq",
+        " textcountry": " Equatorial Guinea",
+        " texty": " 2",
+        " textz": " 10"
+    },
+    {
+        "textshort": "gr",
+        " textcountry": " Greece",
+        " texty": " 39",
+        " textz": " 22"
+    },
+    {
+        "textshort": "gs",
+        " textcountry": " South Georgia and the South Sandwich Islands",
+        " texty": " -54.3",
+        " textz": " -37"
+    },
+    {
+        "textshort": "gt",
+        " textcountry": " Guatemala",
+        " texty": " 15.3",
+        " textz": " -90.15"
+    },
+    {
+        "textshort": "gu",
+        " textcountry": " Guam",
+        " texty": " 13.28",
+        " textz": " 144.47"
+    },
+    {
+        "textshort": "gw",
+        " textcountry": " Guinea-Bissau",
+        " texty": " 12",
+        " textz": " -15"
+    },
+    {
+        "textshort": "gy",
+        " textcountry": " Guyana",
+        " texty": " 5",
+        " textz": " -59"
+    },
+    {
+        "textshort": "hk",
+        " textcountry": " Hong Kong",
+        " texty": " 22.15",
+        " textz": " 114.1"
+    },
+    {
+        "textshort": "hm",
+        " textcountry": " Heard Island and McDonald Islands",
+        " texty": " -53.06",
+        " textz": " 72.31"
+    },
+    {
+        "textshort": "hn",
+        " textcountry": " Honduras",
+        " texty": " 15",
+        " textz": " -86.3"
+    },
+    {
+        "textshort": "hr",
+        " textcountry": " Croatia",
+        " texty": " 45.1",
+        " textz": " 15.3"
+    },
+    {
+        "textshort": "ht",
+        " textcountry": " Haiti",
+        " texty": " 19",
+        " textz": " -72.25"
+    },
+    {
+        "textshort": "hu",
+        " textcountry": " Hungary",
+        " texty": " 47",
+        " textz": " 20"
+    },
+    {
+        "textshort": "id",
+        " textcountry": " Indonesia",
+        " texty": " -5",
+        " textz": " 120"
+    },
+    {
+        "textshort": "ie",
+        " textcountry": " Ireland",
+        " texty": " 53",
+        " textz": " -8"
+    },
+    {
+        "textshort": "il",
+        " textcountry": " Israel",
+        " texty": " 31.3",
+        " textz": " 34.45"
+    },
+    {
+        "textshort": "in",
+        " textcountry": " India",
+        " texty": " 20",
+        " textz": " 77"
+    },
+    {
+        "textshort": "io",
+        " textcountry": " British Indian Ocean Territory",
+        " texty": " -6",
+        " textz": " 71.3"
+    },
+    {
+        "textshort": "iq",
+        " textcountry": " Iraq",
+        " texty": " 33",
+        " textz": " 44"
+    },
+    {
+        "textshort": "ir",
+        " textcountry": " Iran (Islamic Republic of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "is",
+        " textcountry": " Iceland",
+        " texty": " 65",
+        " textz": " -18"
+    },
+    {
+        "textshort": "it",
+        " textcountry": " Italy",
+        " texty": " 42.5",
+        " textz": " 12.5"
+    },
+    {
+        "textshort": "jm",
+        " textcountry": " Jamaica",
+        " texty": " 18.15",
+        " textz": " -77.3"
+    },
+    {
+        "textshort": "jo",
+        " textcountry": " Jordan",
+        " texty": " 31",
+        " textz": " 36"
+    },
+    {
+        "textshort": "jp",
+        " textcountry": " Japan",
+        " texty": " 36",
+        " textz": " 138"
+    },
+    {
+        "textshort": "ke",
+        " textcountry": " Kenya",
+        " texty": " 1",
+        " textz": " 38"
+    },
+    {
+        "textshort": "kg",
+        " textcountry": " Kyrgyzstan",
+        " texty": " 41",
+        " textz": " 75"
+    },
+    {
+        "textshort": "kh",
+        " textcountry": " Cambodia",
+        " texty": " 13",
+        " textz": " 105"
+    },
+    {
+        "textshort": "ki",
+        " textcountry": " Kiribati",
+        " texty": " 1.25",
+        " textz": " 173"
+    },
+    {
+        "textshort": "km",
+        " textcountry": " Comoros",
+        " texty": " -12.1",
+        " textz": " 44.15"
+    },
+    {
+        "textshort": "kn",
+        " textcountry": " Saint Kitts and Nevis",
+        " texty": " 17.2",
+        " textz": " -62.45"
+    },
+    {
+        "textshort": "kp",
+        " textcountry": " Korea (Democratic People\\Korea (North",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "kr",
+        " textcountry": " Korea (Republic of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "kw",
+        " textcountry": " Kuwait",
+        " texty": " 29.3",
+        " textz": " 45.45"
+    },
+    {
+        "textshort": "ky",
+        " textcountry": " Cayman Islands",
+        " texty": " 19.3",
+        " textz": " -80.3"
+    },
+    {
+        "textshort": "kz",
+        " textcountry": " Kazakhstan",
+        " texty": " 48",
+        " textz": " 68"
+    },
+    {
+        "textshort": "la",
+        " textcountry": " Lao People\\Laos",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "lb",
+        " textcountry": " Lebanon",
+        " texty": " 33.5",
+        " textz": " 35.5"
+    },
+    {
+        "textshort": "lc",
+        " textcountry": " Saint Lucia",
+        " texty": " 13.53",
+        " textz": " -60.68"
+    },
+    {
+        "textshort": "li",
+        " textcountry": " Liechtenstein",
+        " texty": " 47.16",
+        " textz": " 9.32"
+    },
+    {
+        "textshort": "lk",
+        " textcountry": " Sri Lanka",
+        " texty": " 7",
+        " textz": " 81"
+    },
+    {
+        "textshort": "lr",
+        " textcountry": " Liberia",
+        " texty": " 6.3",
+        " textz": " -9.3"
+    },
+    {
+        "textshort": "ls",
+        " textcountry": " Lesotho",
+        " texty": " -29.3",
+        " textz": " 28.3"
+    },
+    {
+        "textshort": "lt",
+        " textcountry": " Lithuania",
+        " texty": " 56",
+        " textz": " 24"
+    },
+    {
+        "textshort": "lu",
+        " textcountry": " Luxembourg",
+        " texty": " 49.45",
+        " textz": " 6.1"
+    },
+    {
+        "textshort": "lv",
+        " textcountry": " Latvia",
+        " texty": " 57",
+        " textz": " 25"
+    },
+    {
+        "textshort": "ly",
+        " textcountry": " Libya",
+        " texty": " 25",
+        " textz": " 17"
+    },
+    {
+        "textshort": "ma",
+        " textcountry": " Morocco",
+        " texty": " 32",
+        " textz": " -5"
+    },
+    {
+        "textshort": "mc",
+        " textcountry": " Monaco",
+        " texty": " 43.44",
+        " textz": " 7.24"
+    },
+    {
+        "textshort": "md",
+        " textcountry": " Moldova (Republic of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "mg",
+        " textcountry": " Madagascar",
+        " texty": " -20",
+        " textz": " 47"
+    },
+    {
+        "textshort": "mh",
+        " textcountry": " Marshall Islands",
+        " texty": " 9",
+        " textz": " 168"
+    },
+    {
+        "textshort": "mk",
+        " textcountry": " Macedonia (the former Yugoslav Republic of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "ml",
+        " textcountry": " Mali",
+        " texty": " 17",
+        " textz": " -4"
+    },
+    {
+        "textshort": "mm",
+        " textcountry": " Myanmar",
+        " texty": " 22",
+        " textz": " 98"
+    },
+    {
+        "textshort": "mn",
+        " textcountry": " Mongolia",
+        " texty": " 46",
+        " textz": " 105"
+    },
+    {
+        "textshort": "mo",
+        " textcountry": " Macao",
+        " texty": " 22.1",
+        " textz": " 113.33"
+    },
+    {
+        "textshort": "mp",
+        " textcountry": " Northern Mariana Islands",
+        " texty": " 15.12",
+        " textz": " 145.45"
+    },
+    {
+        "textshort": "mq",
+        " textcountry": " Martinique",
+        " texty": " 14.4",
+        " textz": " -61"
+    },
+    {
+        "textshort": "mr",
+        " textcountry": " Mauritania",
+        " texty": " 20",
+        " textz": " -12"
+    },
+    {
+        "textshort": "ms",
+        " textcountry": " Montserrat",
+        " texty": " 16.45",
+        " textz": " -62.12"
+    },
+    {
+        "textshort": "mt",
+        " textcountry": " Malta",
+        " texty": " 35.5",
+        " textz": " 14.35"
+    },
+    {
+        "textshort": "mu",
+        " textcountry": " Mauritius",
+        " texty": " -20.17",
+        " textz": " 57.33"
+    },
+    {
+        "textshort": "mv",
+        " textcountry": " Maldives",
+        " texty": " 3.15",
+        " textz": " 73"
+    },
+    {
+        "textshort": "mw",
+        " textcountry": " Malawi",
+        " texty": " -13.3",
+        " textz": " 34"
+    },
+    {
+        "textshort": "mx",
+        " textcountry": " Mexico",
+        " texty": " 23",
+        " textz": " -102"
+    },
+    {
+        "textshort": "my",
+        " textcountry": " Malaysia",
+        " texty": " 2.3",
+        " textz": " 112.3"
+    },
+    {
+        "textshort": "mz",
+        " textcountry": " Mozambique",
+        " texty": " -18.15",
+        " textz": " 35"
+    },
+    {
+        "textshort": "na",
+        " textcountry": " Namibia",
+        " texty": " -22",
+        " textz": " 17"
+    },
+    {
+        "textshort": "nc",
+        " textcountry": " New Caledonia",
+        " texty": " -21.3",
+        " textz": " 165.3"
+    },
+    {
+        "textshort": "ne",
+        " textcountry": " Niger",
+        " texty": " 16",
+        " textz": " 8"
+    },
+    {
+        "textshort": "nf",
+        " textcountry": " Norfolk Island",
+        " texty": " -29.02",
+        " textz": " 167.57"
+    },
+    {
+        "textshort": "ng",
+        " textcountry": " Nigeria",
+        " texty": " 10",
+        " textz": " 8"
+    },
+    {
+        "textshort": "ni",
+        " textcountry": " Nicaragua",
+        " texty": " 13",
+        " textz": " -85"
+    },
+    {
+        "textshort": "nl",
+        " textcountry": " Netherlands",
+        " texty": " 52.3",
+        " textz": " 5.45"
+    },
+    {
+        "textshort": "no",
+        " textcountry": " Norway",
+        " texty": " 62",
+        " textz": " 10"
+    },
+    {
+        "textshort": "np",
+        " textcountry": " Nepal",
+        " texty": " 28",
+        " textz": " 84"
+    },
+    {
+        "textshort": "nr",
+        " textcountry": " Nauru",
+        " texty": " -0.32",
+        " textz": " 166.55"
+    },
+    {
+        "textshort": "nt",
+        " textcountry": " Neutral Zone",
+        " texty": " 0",
+        " textz": " 0"
+    },
+    {
+        "textshort": "nu",
+        " textcountry": " Niue",
+        " texty": " -19.02",
+        " textz": " -169.52"
+    },
+    {
+        "textshort": "nz",
+        " textcountry": " New Zealand",
+        " texty": " -41",
+        " textz": " 174"
+    },
+    {
+        "textshort": "om",
+        " textcountry": " Oman",
+        " texty": " 21",
+        " textz": " 57"
+    },
+    {
+        "textshort": "pa",
+        " textcountry": " Panama",
+        " texty": " 9",
+        " textz": " -80"
+    },
+    {
+        "textshort": "pe",
+        " textcountry": " Peru",
+        " texty": " -10",
+        " textz": " -76"
+    },
+    {
+        "textshort": "pf",
+        " textcountry": " French Polynesia",
+        " texty": " -15",
+        " textz": " -140"
+    },
+    {
+        "textshort": "pg",
+        " textcountry": " Papua New Guinea",
+        " texty": " -6",
+        " textz": " 147"
+    },
+    {
+        "textshort": "ph",
+        " textcountry": " Philippines",
+        " texty": " 13",
+        " textz": " 122"
+    },
+    {
+        "textshort": "pk",
+        " textcountry": " Pakistan",
+        " texty": " 30",
+        " textz": " 70"
+    },
+    {
+        "textshort": "pl",
+        " textcountry": " Poland",
+        " texty": " 52",
+        " textz": " 20"
+    },
+    {
+        "textshort": "pm",
+        " textcountry": " Saint Pierre and Miquelon",
+        " texty": " 46.5",
+        " textz": " -56.2"
+    },
+    {
+        "textshort": "pn",
+        " textcountry": " Pitcairn",
+        " texty": " -25.04",
+        " textz": " -130.06"
+    },
+    {
+        "textshort": "pr",
+        " textcountry": " Puerto Rico",
+        " texty": " 18.15",
+        " textz": " -66.3"
+    },
+    {
+        "textshort": "pt",
+        " textcountry": " Portugal",
+        " texty": " 39.3",
+        " textz": " -8"
+    },
+    {
+        "textshort": "pw",
+        " textcountry": " Palau",
+        " texty": " 7.3",
+        " textz": " 134.3"
+    },
+    {
+        "textshort": "py",
+        " textcountry": " Paraguay",
+        " texty": " -23",
+        " textz": " -58"
+    },
+    {
+        "textshort": "qa",
+        " textcountry": " Qatar",
+        " texty": " 25.3",
+        " textz": " 51.15"
+    },
+    {
+        "textshort": "re",
+        " textcountry": " R\u00e9union",
+        " texty": " -21.06",
+        " textz": " 55.36"
+    },
+    {
+        "textshort": "ro",
+        " textcountry": " Romania",
+        " texty": " 46",
+        " textz": " 25"
+    },
+    {
+        "textshort": "ru",
+        " textcountry": " Russian Federation",
+        " texty": " 60",
+        " textz": " 100"
+    },
+    {
+        "textshort": "rw",
+        " textcountry": " Rwanda",
+        " texty": " -2",
+        " textz": " 30"
+    },
+    {
+        "textshort": "sa",
+        " textcountry": " Saudi Arabia",
+        " texty": " 25",
+        " textz": " 45"
+    },
+    {
+        "textshort": "sb",
+        " textcountry": " Solomon Islands",
+        " texty": " -8",
+        " textz": " 159"
+    },
+    {
+        "textshort": "sc",
+        " textcountry": " Seychelles",
+        " texty": " -4.35",
+        " textz": " 55.4"
+    },
+    {
+        "textshort": "sd",
+        " textcountry": " Sudan",
+        " texty": " 15",
+        " textz": " 30"
+    },
+    {
+        "textshort": "se",
+        " textcountry": " Sweden",
+        " texty": " 62",
+        " textz": " 15"
+    },
+    {
+        "textshort": "sg",
+        " textcountry": " Singapore",
+        " texty": " 1.22",
+        " textz": " 103.48"
+    },
+    {
+        "textshort": "sh",
+        " textcountry": " Saint Helena",
+        " texty": " Ascension and Tristan da Cunha",
+        " textz": " -15.56",
+        "null": [
+            " -5.42"
+        ]
+    },
+    {
+        "textshort": "si",
+        " textcountry": " Slovenia",
+        " texty": " 46.07",
+        " textz": " 14.49"
+    },
+    {
+        "textshort": "sj",
+        " textcountry": " Svalbard and Jan Mayen",
+        " texty": " 78",
+        " textz": " 20"
+    },
+    {
+        "textshort": "sk",
+        " textcountry": " Slovakia",
+        " texty": " 48.4",
+        " textz": " 19.3"
+    },
+    {
+        "textshort": "sl",
+        " textcountry": " Sierra Leone",
+        " texty": " 8.3",
+        " textz": " -11.3"
+    },
+    {
+        "textshort": "sm",
+        " textcountry": " San Marino",
+        " texty": " 43.46",
+        " textz": " 12.25"
+    },
+    {
+        "textshort": "sn",
+        " textcountry": " Senegal",
+        " texty": " 14",
+        " textz": " -14"
+    },
+    {
+        "textshort": "so",
+        " textcountry": " Somalia",
+        " texty": " 10",
+        " textz": " 49"
+    },
+    {
+        "textshort": "sr",
+        " textcountry": " Suriname",
+        " texty": " 4",
+        " textz": " -56"
+    },
+    {
+        "textshort": "st",
+        " textcountry": " Sao Tome and Principe",
+        " texty": " 1",
+        " textz": " 7"
+    },
+    {
+        "textshort": "sv",
+        " textcountry": " El Salvador",
+        " texty": " 13.5",
+        " textz": " -88.55"
+    },
+    {
+        "textshort": "sy",
+        " textcountry": " Syrian Arab Republic",
+        " texty": " 34.81",
+        " textz": " 39.05"
+    },
+    {
+        "textshort": "sz",
+        " textcountry": " Swaziland",
+        " texty": " -26.3",
+        " textz": " 31.3"
+    },
+    {
+        "textshort": "tc",
+        " textcountry": " Turks and Caicos Islands",
+        " texty": " 21.45",
+        " textz": " -71.35"
+    },
+    {
+        "textshort": "td",
+        " textcountry": " Chad",
+        " texty": " 15",
+        " textz": " 19"
+    },
+    {
+        "textshort": "tf",
+        " textcountry": " French Southern Territories",
+        " texty": " -43",
+        " textz": " 67"
+    },
+    {
+        "textshort": "tg",
+        " textcountry": " Togo",
+        " texty": " 8",
+        " textz": " 1.1"
+    },
+    {
+        "textshort": "th",
+        " textcountry": " Thailand",
+        " texty": " 15",
+        " textz": " 100"
+    },
+    {
+        "textshort": "tj",
+        " textcountry": " Tajikistan",
+        " texty": " 39",
+        " textz": " 71"
+    },
+    {
+        "textshort": "tk",
+        " textcountry": " Tokelau",
+        " texty": " -9",
+        " textz": " -172"
+    },
+    {
+        "textshort": "tm",
+        " textcountry": " Turkmenistan",
+        " texty": " 40",
+        " textz": " 60"
+    },
+    {
+        "textshort": "tn",
+        " textcountry": " Tunisia",
+        " texty": " 34",
+        " textz": " 9"
+    },
+    {
+        "textshort": "to",
+        " textcountry": " Tonga",
+        " texty": " -20",
+        " textz": " -175"
+    },
+    {
+        "textshort": "tl",
+        " textcountry": " Timor-Leste",
+        " texty": " -8.5",
+        " textz": " 125.55"
+    },
+    {
+        "textshort": "tr",
+        " textcountry": " Turkey",
+        " texty": " 39",
+        " textz": " 35"
+    },
+    {
+        "textshort": "tt",
+        " textcountry": " Trinidad and Tobago",
+        " texty": " 11",
+        " textz": " -61"
+    },
+    {
+        "textshort": "tv",
+        " textcountry": " Tuvalu",
+        " texty": " -8",
+        " textz": " 178"
+    },
+    {
+        "textshort": "tw",
+        " textcountry": " Taiwan",
+        " texty": " Province of China",
+        " textz": " 23.3",
+        "null": [
+            " 121"
+        ]
+    },
+    {
+        "textshort": "tz",
+        " textcountry": " Tanzania",
+        " texty": " United Republic of",
+        " textz": " -6",
+        "null": [
+            " 35"
+        ]
+    },
+    {
+        "textshort": "ua",
+        " textcountry": " Ukraine",
+        " texty": " 49",
+        " textz": " 32"
+    },
+    {
+        "textshort": "ug",
+        " textcountry": " Uganda",
+        " texty": " 1",
+        " textz": " 32"
+    },
+    {
+        "textshort": "uk",
+        " textcountry": " United Kingdom of Great Britain and Northern Ireland",
+        " texty": " 54",
+        " textz": " -2"
+    },
+    {
+        "textshort": "us",
+        " textcountry": " United States of America",
+        " texty": " 38",
+        " textz": " -97"
+    },
+    {
+        "textshort": "uy",
+        " textcountry": " Uruguay",
+        " texty": " -33",
+        " textz": " -56"
+    },
+    {
+        "textshort": "uz",
+        " textcountry": " Uzbekistan",
+        " texty": " 41",
+        " textz": " 64"
+    },
+    {
+        "textshort": "va",
+        " textcountry": " Holy See",
+        " texty": " 41.54",
+        " textz": " 12.27"
+    },
+    {
+        "textshort": "vc",
+        " textcountry": " Saint Vincent and the Grenadines",
+        " texty": " 13.15",
+        " textz": " -61.12"
+    },
+    {
+        "textshort": "ve",
+        " textcountry": " Venezuela (Bolivarian Republic of",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "vg",
+        " textcountry": " Virgin Islands (British",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "vi",
+        " textcountry": " Virgin Islands (U.S.",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "vn",
+        " textcountry": " Viet Nam",
+        " texty": " 16",
+        " textz": " 106"
+    },
+    {
+        "textshort": "vu",
+        " textcountry": " Vanuatu",
+        " texty": " -16",
+        " textz": " 167"
+    },
+    {
+        "textshort": "wf",
+        " textcountry": " Wallis and Futuna",
+        " texty": " -13.18",
+        " textz": " -176.12"
+    },
+    {
+        "textshort": "ws",
+        " textcountry": " Samoa",
+        " texty": " -13.35",
+        " textz": " -172.2"
+    },
+    {
+        "textshort": "ye",
+        " textcountry": " Yemen",
+        " texty": " 15",
+        " textz": " 48"
+    },
+    {
+        "textshort": "yt",
+        " textcountry": " Mayotte",
+        " texty": " -12.5",
+        " textz": " 45.1"
+    },
+    {
+        "textshort": "yu",
+        " textcountry": " Yugoslavia",
+        " texty": " 44",
+        " textz": " 21"
+    },
+    {
+        "textshort": "za",
+        " textcountry": " South Africa",
+        " texty": " -29",
+        " textz": " 24"
+    },
+    {
+        "textshort": "zm",
+        " textcountry": " Zambia",
+        " texty": " -15",
+        " textz": " 30"
+    },
+    {
+        "textshort": "cd",
+        " textcountry": " Congo (Democratic Republic of the",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "zw",
+        " textcountry": " Zimbabwe",
+        " texty": " -20",
+        " textz": " 30"
+    },
+    {
+        "textshort": "ap",
+        " textcountry": " ",
+        " texty": " -2.81",
+        " textz": " 128.5"
+    },
+    {
+        "textshort": "rs",
+        " textcountry": " Serbia",
+        " texty": " 44.02",
+        " textz": " 21.01"
+    },
+    {
+        "textshort": "ax",
+        " textcountry": " \u00c5land Islands",
+        " texty": " 60.21",
+        " textz": " 20.16"
+    },
+    {
+        "textshort": "eu",
+        " textcountry": " ",
+        " texty": " 0",
+        " textz": " 0"
+    },
+    {
+        "textshort": "01",
+        " textcountry": " ",
+        " texty": " 0",
+        " textz": " 0"
+    },
+    {
+        "textshort": "ps",
+        " textcountry": " Palestine",
+        " texty": " State of",
+        " textz": " 31.89",
+        "null": [
+            " 34.9"
+        ]
+    },
+    {
+        "textshort": "me",
+        " textcountry": " Montenegro",
+        " texty": " 42.74",
+        " textz": " 19.31"
+    },
+    {
+        "textshort": "bq",
+        " textcountry": " Bonaire",
+        " texty": " Sint Eustatius and Saba",
+        " textz": " 12.16",
+        "null": [
+            " -68.3"
+        ]
+    },
+    {
+        "textshort": "cw",
+        " textcountry": " Cura\u00e7ao",
+        " texty": " 12.2",
+        " textz": " -68.94"
+    },
+    {
+        "textshort": "gg",
+        " textcountry": " Guernsey",
+        " texty": " 49.46",
+        " textz": " -2.58"
+    },
+    {
+        "textshort": "im",
+        " textcountry": " Isle of Man",
+        " texty": " 54.23",
+        " textz": " -4.57"
+    },
+    {
+        "textshort": "je",
+        " textcountry": " Jersey",
+        " texty": " 49.21",
+        " textz": " -2.13"
+    },
+    {
+        "textshort": "bl",
+        " textcountry": " Saint Barth\u00e9lemy",
+        " texty": " 17.91",
+        " textz": " -62.83"
+    },
+    {
+        "textshort": "mf",
+        " textcountry": " Saint Martin (French part",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "sx",
+        " textcountry": " Sint Maarten (Dutch part",
+        " texty": null,
+        " textz": null
+    },
+    {
+        "textshort": "ss",
+        " textcountry": " South Sudan",
+        " texty": " 18.03",
+        " textz": " -63.1"
+    },
+    {
+        "textshort": "um",
+        " textcountry": " United States Minor Outlying Islands",
+        " texty": " 19.3",
+        " textz": " 166.63"
+    }
+]
