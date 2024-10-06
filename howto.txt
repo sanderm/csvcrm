@@ -16,6 +16,10 @@ apt install python3-venv;
 apt install libapache2-mod-apparmor
 aa-enforce /etc/apparmor.d/usr.sbin.apache2
 
+
+
+sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+
 # aws free tier edit rules:
 # security groups, Edit inbound rules open port 80 (apache2)and 8080 (python) save rules
 
@@ -24,15 +28,20 @@ chown www-data:www-data -R /var/www/csvcrm
 cd csvcrm
 # https://www.youtube.com/watch?v=75mAm7IhTs4
 sudo -u www-data -s python -m venv rock
+source rock/bin/activate
+rock/bin/pip install flask
 rock/bin/pip install pyrebase
 rock/bin/pip install flask_cors
 rock/bin/pip install urllib3
-rock/bin/pip install --upgrade pip wheel setuptools requests pyrebase4
+rock/bin/pip install --upgrade --use-deprecated=legacy-resolver pip wheel setuptools requests pyrebase4
 #sudo -u www-data -s python3 -m venv .venv; 
 #sudo -u www-data -s rock/bin/pip install CodeIntel
 
+cd /var/www/
+curl -L https://d3kgj69l4ph6w4.cloudfront.net/static/c9-install-2.0.0.sh | bash
+
 # on start of server:
-sudo -u www-data -s .venv/bin/python backendserver.py&
+sudo -u www-data -s rock/bin/python backendserver.py&
 /var/www/start.sh
 # with your user
 chown sander.sander -R /var/www/tagfame/.*
