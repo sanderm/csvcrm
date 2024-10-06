@@ -22,8 +22,14 @@ aa-enforce /etc/apparmor.d/usr.sbin.apache2
 # as www-data user:
 chown www-data:www-data -R /var/www/csvcrm
 cd csvcrm
-sudo -u www-data -s python3 -m venv .venv; 
-sudo -u www-data -s .venv/bin/pip install CodeIntel
+# https://www.youtube.com/watch?v=75mAm7IhTs4
+sudo -u www-data -s python -m venv rock
+rock/bin/pip install pyrebase
+rock/bin/pip install flask_cors
+rock/bin/pip install urllib3
+rock/bin/pip install --upgrade pip wheel setuptools requests pyrebase4
+#sudo -u www-data -s python3 -m venv .venv; 
+#sudo -u www-data -s rock/bin/pip install CodeIntel
 
 # on start of server:
 sudo -u www-data -s .venv/bin/python backendserver.py&
