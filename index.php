@@ -23,8 +23,10 @@ window.onload = function ()
 <title>rockefellerthrust.com</title>
 <body>
 <img src='tagframe-logo.jpg'><br>
+Partner:<br> <img src='stortinget.png'><br>
 <h2><a href="http://rockefellerthrust.com">http://rockefellerthrust.com</a></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9saLsvWcppw?si=dzmjq3-6LYH6JDAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CSJTXST1jII?si=_k5D8et-ejq73DP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <?php
 
 $tags = file_get_contents('./tags.txt', true);
