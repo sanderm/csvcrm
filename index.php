@@ -30,7 +30,9 @@ window.onload = function ()
 
 $tags = file_get_contents('./tags.txt', true);
 $letters = file_get_contents('./letters.txt', true);
-print "<h2>Total tags: $tags Total letters: $letters</h2> send me an sms on +47 99301756";
+print "<h2>Total tags: $tags Total letters: $letters</h2>Send me a tweet on for inquiries: ";
+print "<a href='http://twitter.com/sanderm'><img width=100 src='twitterx.png'></a>";
+
 function stringEndsWith($haystack,$needle,$case=true) {
     $expectedPosition = strlen($haystack) - strlen($needle);
     if ($case){
@@ -89,7 +91,7 @@ if ($handle = opendir('uploads/')) {
 
 ?>
 <div class="tagup" tagupimagehref="http://rockefellerthrust.com/startupmap.rev25-normal.png"></div>
-<form action="rockefellerthrust.com:8080/upload" method="post" enctype="multipart/form-data">
+<form action="http://rockefellerthrust.com:8080/change" method="post" enctype="multipart/form-data">
   <input id="fileupload" type="file" name="file">
   <input type="submit" value="Upload">
 </form>
