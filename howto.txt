@@ -34,8 +34,12 @@ chown www-data:www-data -R /var/www/csvcrm
 cd csvcrm
 # dont know how: https://www.youtube.com/watch?v=75mAm7IhTs4
 # dont know how: https://docs.aws.amazon.com/cloud9/latest/user-guide/sample-python.html
-sudo -u www-data -s python -m venv rock
+
+cd /var/www/rockefellerthrust
 source rock/bin/activate
+./rock/bin/python /var/www/rockefellerthrust/backendserver.py
+
+sudo -u www-data -s python -m venv rock
 rock/bin/pip install pandas
 rock/bin/pip install flask
 rock/bin/pip install pyrebase4
