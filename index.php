@@ -19,11 +19,12 @@ window.onload = function ()
 
 <link rel="stylesheet" type="text/css" href='tagup.css'/>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <title>rockefellerthrust.com</title>
 <body>
 <img src='tagframe-logo.jpg'> Partner:<img width=100 src='stortinget.png'> We are also proud to follow GDPR and DMCA becouse we use firebase storage<br>
-<h2><a href="http://rockefellerthrust.com">http://rockefellerthrust.com</a></h2>
+<h2><a href="http://rockefellerthrust.com">http://rockefellerthrust.com</a> - scroll down for company lists</h2> 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9saLsvWcppw?si=dzmjq3-6LYH6JDAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CSJTXST1jII?si=_k5D8et-ejq73DP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <?php
@@ -43,12 +44,28 @@ function stringEndsWith($haystack,$needle,$case=true) {
 $sum= "";
 $csvfiles="";
 $exec_entry="";
+if ($handle = opendir('img/')) {
+   while (false !== ($entry = readdir($handle))) {
+        if ($entry != "." && $entry != "..") {
+            if (stringEndsWith($entry, '.jpg')) {
+?>
+<div class="slideshow">
+<?php
+print "<img float='left' height='700' src='img/" . $entry . "'>";
+?>
+</div>
+<?php
+           }
+       }
+   }
+}
 if ($handle = opendir('uploads/')) {
     print "<form action='http://rockefellerthrust.com:8080/change' method='post' enctype='multipart/form-data'>";
     print "<label for='changefiles'>Choose a file:</label><br>";
     //print "<select name='changefile' id='changefile'>";
-    while (false !== ($entry = readdir($handle))) {
-
+    //$changefile= $_REQUEST['changefiles'] 
+   while (false !== ($entry = readdir($handle))) {
+        
         if ($entry != "." && $entry != "..") {
 
             $onecsvfile="";
@@ -67,6 +84,7 @@ if ($handle = opendir('uploads/')) {
             //}            
             //print ">$entry</option>";
             //print "<a href='?file=$entry'>$entry</a>";
+            //$changefile= $_REQUEST['changefile'];
             print "<input type='radio' name='changefile'";
             if ("$entry" == "$changefile") {
                 print " checked ";
