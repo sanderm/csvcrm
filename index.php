@@ -31,7 +31,9 @@ window.onload = function ()
 
 $tags = file_get_contents('./tags.txt', true);
 $letters = file_get_contents('./letters.txt', true);
-print "<h2>Total tags: $tags Total letters: $letters</h2>Send me a tweet on for inquiries: ";
+$uniq = file_get_contents('./uniq.txt', true);
+$pages = file_get_contents('./pages.txt', true);
+print "<h2>Total tags: $tags Total letters: $letters uniq visitors: $uniq visitor pages: $pages</h2>Send me a tweet on for inquiries: ";
 print "<a href='http://twitter.com/sanderm'><img width=100 src='twitterx.png'></a>";
 
 function stringEndsWith($haystack,$needle,$case=true) {

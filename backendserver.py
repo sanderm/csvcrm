@@ -10,6 +10,7 @@ import requests
 import subprocess
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 from flask_cors import CORS
+import venv
 #from werkzeug import secure_filename
 
 app = Flask(__name__)
@@ -20,6 +21,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 # These are the extension that we are accepting to be uploaded
 app.config['ALLOWED_EXTENSIONS'] = set(['csv'])
 
+# creates stats about tags and letters
 def count():
     count = 0
     count2 = 0
@@ -40,8 +42,14 @@ def count():
     file1 = open('letters.txt', 'w')
     file1.write(str(count2) + "\n")
     file1.close()
+    #file1 = open('uploads/all.csv', 'w')
+    #file1.write("")
+    #file1.close()
+    #upload_to_firebase(os.path.join(app.config['UPLOAD_FOLDER'], "all.csv"))
     #print("THE CHARACTER {} IS FOUND {} TIMES IN THE TEXT FILES".format(char,count))
+    os.system("/var/www/rockefellerthrust/count.sh");
 
+# defines what exstentions is allowed
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1] in app.config['ALLOWED_EXTENSIONS']
@@ -81,7 +89,7 @@ def hello():
  #       ".css": "text/css",
 #        ".html": "text/html",
 
-# return live search form data
+# returns a list of uploaded files
 @app.route('/searchform', methods=['GET'])
 def searchform():
 
