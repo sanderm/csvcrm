@@ -29,11 +29,11 @@ window.onload = function ()
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CSJTXST1jII?si=_k5D8et-ejq73DP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <?php
 
-$tags = file_get_contents('./tags.txt', true);
-$letters = file_get_contents('./letters.txt', true);
-$uniq = file_get_contents('./uniq.txt', true);
-$pages = file_get_contents('./pages.txt', true);
-print "<h2>Total tags: $tags Total letters: $letters uniq visitors: $uniq visitor pages: $pages</h2>Send me a tweet on for inquiries: ";
+$tags_num = file_get_contents('./tags.txt', true);
+$letters_num = file_get_contents('./letters.txt', true);
+$uniq_num = file_get_contents('./uniq.txt', true);
+$pages_num = file_get_contents('./pages.txt', true);
+print "<h2>Total tags: $tags_num Total letters: $letters_num uniq visitors: $uniq_num visitor pages: $pages_num</h2>Send me a tweet on for inquiries: ";
 print "<a href='http://twitter.com/sanderm'><img width=100 src='twitterx.png'></a>";
 
 function stringEndsWith($haystack,$needle,$case=true) {
@@ -61,8 +61,10 @@ print "<img float='left' height='700' src='img/" . $entry . "'>";
        }
    }
 }
+$choosefile="";
+// upload a file to filestore by choosing
 if ($handle = opendir('uploads/')) {
-    print "<form action='http://rockefellerthrust.com:8080/change' method='post' enctype='multipart/form-data'>";
+    print "<form action='http://rockefellerthrust.com:8080/choosefile' method='post' enctype='multipart/form-data'>";
     print "<label for='changefiles'>Choose a file:</label><br>";
     //print "<select name='changefile' id='changefile'>";
     //$changefile= $_REQUEST['changefiles'] 
@@ -76,7 +78,7 @@ if ($handle = opendir('uploads/')) {
                  $csvfiles .="$onecsvfile";
 
             $sum= "$sum" . "$entry\n";
-            if ("$entry" == "$changefile") {
+            if ("$entry" == "$choosefile") {
                 $exec_entry = "$entry";
             }
                 //$exec_entry .= "$changefile";
@@ -87,8 +89,8 @@ if ($handle = opendir('uploads/')) {
             //print ">$entry</option>";
             //print "<a href='?file=$entry'>$entry</a>";
             //$changefile= $_REQUEST['changefile'];
-            print "<input type='radio' name='changefile'";
-            if ("$entry" == "$changefile") {
+            print "<input type='radio' name='choosefile'";
+            if ("$entry" == "$choosefile") {
                 print " checked ";
             }
             print "value='$entry'>$entry<br>";
@@ -111,11 +113,11 @@ if ($handle = opendir('uploads/')) {
 
 ?>
 <div class="tagup" tagupimagehref="http://rockefellerthrust.com/startupmap.rev25-normal.png"></div>
-<form action="http://rockefellerthrust.com:8080/change" method="post" enctype="multipart/form-data">
-  <input id="fileupload" type="file" name="file">
+<form action="http://rockefellerthrust.com:8080/upload" method="post" enctype="multipart/form-data">
+  <input id="fileupload" type="file" name="fileupload">
   <input type="submit" value="Upload">
 </form>
-<span style="vertical-align:top">Embed:</span><textarea style="height: 200px; width: 700px;" class="test-input">
+<span style="vertical-align:top">Embed:</span><form><textarea style="height: 200px; width: 700px;" class="test-input">
   <!--
 embed code on yourwebsite
 -->
@@ -137,15 +139,12 @@ embed code on yourwebsite
   <title>Tagup demo</title>
   <body>
   <form action="http://rockefellerthrust.com:8080/upload" method="post" enctype="multipart/form-data">
-  <input id="fileupload" type="file" name="file">
+  <input id="fileupload" type="file" name="fileupload">
   <input type="submit" value="Upload">
   </form>
   </body>
   </html>
 </textarea>
-<form action="http://rockefellerthrust.com:8080/upload" method="post" enctype="multipart/form-data">
-  <input id="fileupload" type="file" name="file">
-  <input type="submit" value="Upload">
 </form>
 </body>
 

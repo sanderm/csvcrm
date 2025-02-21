@@ -84,23 +84,32 @@ def hello():
 @app.route('/upload', methods=['POST'])
 def upload():
     # Get the name of the uploaded file
-    file = request.files['file']
+    file = request.files['fileupload']
     # Check if the file is one of the allowed types/extensions
     if file and allowed_file(file.filename):
         # Make the filename safe, remove unsupported chars
         utc_time = datetime.datetime.utcnow()
-        filename = utc_time.strftime("%Y-%m-%d-%H%M%S") + "_" + file.filename + ".csv"
         # Move the file form the temporal folder to
         # the upload folder we setup
         
         #filediryear= os.path.join(app.config['UPLOAD_FOLDER'], utc_time.strftime("%Y-%m"))
         #os.mkdir(filediryear)
-        savefilename= os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        choosefile = request.form.get('choosefile')
+        savefilename= os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        if os.path.exists(savefilename):
+            newfilename= utc_time.strftime("%Y-%m-%d-%H%M%S") + "_" + file.filename
+        else:
+            newfilename= savefilename
+
         file.save(savefilename)
         # Redirect the user to the uploaded_file route, which
         # will basicaly show on the browser the uploaded file
         
-        upload_to_firebase(savefilename)
+        
+        if not os.path.exists(choosefile):
+            upload_to_firebase(choosefile)
+        if not os.path.exists(savefilename):
+            upload_to_firebase(savefilename)
         #convert_csv_to_json(savefilename)
         #prettify_csv(savefilename)
         #s = requests.Session()
@@ -113,17 +122,18 @@ def upload():
 
         #return "Success!"
 
-@app.route('/change', methods=['POST'])
-def change():
+@app.route('/choosefile', methods=['POST'])
+def choosefile():
     # Get the name of the uploaded file
-    file = request.form.get('changefile')
+    file = request.form.get('choosefile')
     submit = request.form.get('submit')
     # Check if the file is one of the allowed types/extensions
     savefilename= os.path.join(app.config['UPLOAD_FOLDER'], file)
     # Redirect the user to the uploaded_file route, which
     # will basicaly show on the browser the uploaded file
         
-    upload_to_firebase(savefilename)
+    if not os.path.exists(savefilename):
+       upload_to_firebase(savefilename)
     theurl= request.referrer;
     count();
     return redirect(theurl, code=302)
