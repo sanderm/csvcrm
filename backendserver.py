@@ -94,22 +94,18 @@ def upload():
         
         #filediryear= os.path.join(app.config['UPLOAD_FOLDER'], utc_time.strftime("%Y-%m"))
         #os.mkdir(filediryear)
-        choosefile = request.form.get('choosefile')
         savefilename= os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         if os.path.exists(savefilename):
             newfilename= utc_time.strftime("%Y-%m-%d-%H%M%S") + "_" + file.filename
         else:
             newfilename= savefilename
 
-        file.save(savefilename)
+        file.save(newfilename)
         # Redirect the user to the uploaded_file route, which
         # will basicaly show on the browser the uploaded file
         
-        
-        if not os.path.exists(choosefile):
-            upload_to_firebase(choosefile)
-        if not os.path.exists(savefilename):
-            upload_to_firebase(savefilename)
+        ##if os.path.isfile(savefilename):
+        upload_to_firebase(savefilename)
         #convert_csv_to_json(savefilename)
         #prettify_csv(savefilename)
         #s = requests.Session()
