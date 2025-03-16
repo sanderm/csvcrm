@@ -1,6 +1,6 @@
 <html>
 <head>
-  <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width">
 <!-- Start of  Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a0595545-82d1-4095-9f0c-bd28246d8227"> </script>
 <!-- End of  Zendesk Widget script -->
@@ -28,7 +28,7 @@ window.onload = function ()
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9saLsvWcppw?si=dzmjq3-6LYH6JDAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CSJTXST1jII?si=_k5D8et-ejq73DP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <?php
-
+print "<h2>Sander; the trustee of this fund have synonym names like Bradley Cooper, Emanuel Kant, Ronan Keating, Edvard Munch and Bruce Springsteen</h2>";
 $tags_num = file_get_contents('./tags.txt', true);
 $letters_num = file_get_contents('./letters.txt', true);
 $uniq_num = file_get_contents('./uniq.txt', true);
