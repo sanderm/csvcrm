@@ -1,0 +1,4 @@
+RewriteEngine On
+RewreiteBase /
+RewriteRule ^([^\.]+$ $1.php [NC,L]
+RewriteRule ^file/(.*)$1 [L,NC,R]
