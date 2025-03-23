@@ -77,7 +77,13 @@ apt-get remove logrotate
 cp count.sh /etc/cron.hourly
 
 # permission fix:
-chmod g+r img/ uploads
+cd /var/www/rockefellerthrust/
+find -type d -exec chmod g=rwxs "{}" ";"
+chmod g+w -r .
+chgrp ww-data -R .
+# add users and groups to access project from www-data
+useradd sander
+addgroup sander www-data
 # to avoid 
 
 # when theres full space, first it will be impossible to change csv, then the downain will go down.
