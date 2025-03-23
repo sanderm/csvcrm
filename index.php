@@ -23,12 +23,12 @@ window.onload = function ()
 </head>
 <title>rockefellerthrust.com</title>
 <body>
-<img src='tagframe-logo.jpg'> Partner:<img width=100 src='stortinget.png'> We are also proud to follow GDPR and DMCA becouse we use firebase storage<br>
+<img src='tagframe-logo.jpg'> Partners: <a href="https://stortinget.no">Stortinget.no</a> <a href="https://rockefeller.no">Rockefeller.no/John Dee/Sentrum scene</a> <a href="http://patentstyret.no">Patentstyret.no</a> <a href="startupweekend.com">StartupWeekend.com Techstars</a> <a href="http://startupnorway.com">StartupNorway.com</a>. We are also proud to follow GDPR and DMCA becouse we use <a href="https://firebase.com">firebase storage</a> from <a href="https://google.com">google.com</a> project stiired with high end Surface tables from <a href="https://microsoft.com">Microsoft.com</a> and Bruk hue <a href="http://telenor.no">telenor.no</a> phone central when writing in public to avoid press, i've personally overseen and made all theese companies you see by managing them through others<br>
 <h2><a href="http://rockefellerthrust.com">http://rockefellerthrust.com</a> - scroll down for lists of companies & famous names revealed with video</h2> 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9saLsvWcppw?si=dzmjq3-6LYH6JDAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CSJTXST1jII?si=_k5D8et-ejq73DP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <?php
-print "<h2>Sander; the trustee of this fund have synonym names like Bradley Cooper, Emanuel Kant, Ronan Keating, Edvard Munch and Bruce Springsteen, makeup and hairdo makes wonders as spesial agent Sander strategy described in lucifer norrøn mythologi, this thrust is for everyone not breaking hearts in a legal way to help organisations, stock broker dealers companies and small and big companies to support equality</h2>";
+print "<h2>Sander; the trustee of this fund have synonym names like Bradley Cooper, Emanuel Kant, Ronan Keating, Edvard Munch and Bruce Springsteen, makeup and hairdo makes wonders as spesial agent Sander strategy described in lucifer norrøn mythologi, this thrust is for everyone not breaking hearts in a legal way to help organisations, stock broker dealers companies and small and big companies to support equality, i'm Jentoft kingly and Magnor, Berg, Magistad and Johansen is hooked into rockefeller</h2>";
 $tags_num = file_get_contents('./tags.txt', true);
 $letters_num = file_get_contents('./letters.txt', true);
 $uniq_num = file_get_contents('./uniq.txt', true);
@@ -49,7 +49,7 @@ $exec_entry="";
 if ($handle = opendir('img/')) {
    while (false !== ($entry = readdir($handle))) {
         if ($entry != "." && $entry != "..") {
-            if (stringEndsWith($entry, '.jpg')) {
+            if (stringEndsWith($entry, '.jpg') or stringEndsWith($entry, '.png')) {
 ?>
 <div class="slideshow">
 <?php
@@ -61,6 +61,7 @@ print "<img float='left' height='700' src='img/" . $entry . "'>";
        }
    }
 }
+
 $choosefile="";
 // upload a file to filestore by choosing
 if ($handle = opendir('uploads/')) {
@@ -149,3 +150,4 @@ embed code on yourwebsite
 </body>
 
 </html>
+
