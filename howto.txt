@@ -84,6 +84,9 @@ chgrp ww-data -R .
 # add users and groups to access project from www-data
 useradd sander
 addgroup sander www-data
+
+# to protect files and make them visible correctly by default
+echo "umask 0002" >> /etc/bash.bashrc
 # to avoid 
 
 # when theres full space, first it will be impossible to change csv, then the downain will go down.
