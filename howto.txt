@@ -18,6 +18,7 @@ aa-enforce /etc/apparmor.d/usr.sbin.apache2
 apt-get install whois
 
 
+
 sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
 
 #install cloud9:
@@ -70,6 +71,11 @@ chown sander.www-data -R /var/www/tagfame/uploads/
 4. start mjgtest.py for each database
 5. upload JSON to realtime database under the 3 dots in the right.
 
+# to avoid rotating logs weekly so counting visitors becomes total:
+apt-get remove logrotate
+# follow instructions in count.sh for visitors counting, copy file and change www dir inside the file
+cp count.sh /etc/cron.hourly
+
 # to avoid 
 
 # when theres full space, first it will be impossible to change csv, then the downain will go down.
@@ -84,3 +90,4 @@ chown sander.www-data -R /var/www/tagfame/uploads/
 8. apt-get dist-upgrade
 9. apt autoremove
 10. apt-get reinstall python3-pip
+
