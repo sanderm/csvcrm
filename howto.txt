@@ -76,6 +76,8 @@ apt-get remove logrotate
 # follow instructions in count.sh for visitors counting, copy file and change www dir inside the file
 cp count.sh /etc/cron.hourly
 
+# permission fix:
+chmod g+r img/ uploads
 # to avoid 
 
 # when theres full space, first it will be impossible to change csv, then the downain will go down.
