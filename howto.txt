@@ -102,3 +102,8 @@ echo "umask 0002" >> /etc/bash.bashrc
 9. apt autoremove
 10. apt-get reinstall python3-pip
 
+# crontab add:
+
+
+echo "*/1  * * * *   /etc/cron.hourly/count.sh" >> /etc/crontab
+crontab -l
